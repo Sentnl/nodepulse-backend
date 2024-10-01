@@ -1,7 +1,9 @@
-const fastify = require('fastify')({ logger: true });
-const axios = require('axios');
-const dns = require('dns').promises;
-const geoip = require('geoip-lite');
+import Fastify from 'fastify';
+import ky from 'ky';
+import dns from 'dns/promises';
+import geoip from 'geoip-lite';
+
+const fastify = Fastify({ logger: true });
 
 const PORT = process.env.PORT || 3000;
 const HEALTH_CHECK_INTERVAL = process.env.HEALTH_CHECK_INTERVAL || 520000; // Default 520 seconds
@@ -43,22 +45,20 @@ const fetchNodeList = async () => {
   try {
     const fetchWithFallback = async (url) => {
       try {
-        return await axios.get(`https://${url}`);
+        return await ky.get(`https://${url}`).json();
       } catch (error) {
         console.log(`HTTPS request failed for ${url}, falling back to HTTP`);
-        return await axios.get(`http://${url}`);
+        return await ky.get(`http://${url}`).json();
       }
     };
 
     // Fetch Hyperion nodes
-    const hyperionResponse = await fetchWithFallback('wax.sengine.co/api/nodes/hyperion');
-    const hyperionNodeList = hyperionResponse.data;
+    const hyperionNodeList = await fetchWithFallback('wax.sengine.co/api/nodes/hyperion');
     hyperionMainnetNodes = hyperionNodeList.filter(node => node.network === 'mainnet').map(node => ({ url: node.https_node_url }));
     hyperionTestnetNodes = hyperionNodeList.filter(node => node.network === 'testnet').map(node => ({ url: node.https_node_url }));
 
     // Fetch Atomic nodes
-    const atomicResponse = await fetchWithFallback('wax.sengine.co/api/nodes/atomic');
-    const atomicNodeList = atomicResponse.data;
+    const atomicNodeList = await fetchWithFallback('wax.sengine.co/api/nodes/atomic');
     atomicMainnetNodes = atomicNodeList.filter(node => node.network === 'mainnet').map(node => ({ url: node.https_node_url }));
     atomicTestnetNodes = atomicNodeList.filter(node => node.network === 'testnet').map(node => ({ url: node.https_node_url }));
 
@@ -73,9 +73,9 @@ const fetchLatestHeadBlock = async (nodes) => {
   try {
     const headBlocks = await Promise.all(nodes.slice(0, 3).map(async (node) => {
       try {
-        const response = await axios.get(`${node.url}/v1/chain/get_info`);
-        console.log(`Head block number for node ${node.url}: ${response.data.head_block_num}`);
-        return response.data.head_block_num;
+        const response = await ky.get(`${node.url}/v1/chain/get_info`, { timeout: TIMEOUT_DURATION }).json();
+        console.log(`Head block number for node ${node.url}: ${response.head_block_num}`);
+        return response.head_block_num;
       } catch (error) {
         fastify.log.error(`Failed to fetch head block from ${node.url}:`, error.message);
         return null;
@@ -96,15 +96,15 @@ const checkHyperionHealth = async (node, latestHeadBlock) => {
     console.log(`Checking Hyperion health for node: ${node.url}`);
 
     const [actionsResponse, healthResponse] = await Promise.all([
-      axios.get(`${node.url}/v2/history/get_actions?limit=1`, { timeout: TIMEOUT_DURATION }),
-      axios.get(`${node.url}/v2/health`, { timeout: TIMEOUT_DURATION })
+      ky.get(`${node.url}/v2/history/get_actions?limit=1`, { timeout: TIMEOUT_DURATION }).json(),
+      ky.get(`${node.url}/v2/health`, { timeout: TIMEOUT_DURATION }).json()
     ]);
 
     //console.log(`Hyperion /v2/history/get_actions response for node ${node.url}:`, actionsResponse.data);
     //console.log(`Hyperion /v2/health response for node ${node.url}:`, healthResponse.data);
 
-    const actionsData = actionsResponse.data;
-    const healthData = healthResponse.data;
+    const actionsData = actionsResponse;
+    const healthData = healthResponse;
 
     // Ensure last_indexed_block_time is in UTC format
     const lastIndexedBlockTimeStr = actionsData.last_indexed_block_time;
@@ -167,18 +167,18 @@ const checkAtomicHealth = async (node) => {
     console.log(`Checking Atomic API health for node: ${node.url}`);
 
     const [collectionsResponse, templatesResponse, assetsResponse] = await Promise.all([
-      axios.get(`${node.url}/atomicassets/v1/collections/kogsofficial`, { timeout: TIMEOUT_DURATION }),
-      axios.get(`${node.url}/atomicassets/v1/templates?collection_name=kogsofficial&has_assets=true&page=1&limit=1&order=desc&sort=created`, { timeout: TIMEOUT_DURATION }),
-      axios.get(`${node.url}/atomicassets/v1/assets?page=1&limit=1&order=desc&sort=asset_id`, { timeout: TIMEOUT_DURATION })
+      ky.get(`${node.url}/atomicassets/v1/collections/kogsofficial`, { timeout: TIMEOUT_DURATION }).json(),
+      ky.get(`${node.url}/atomicassets/v1/templates?collection_name=kogsofficial&has_assets=true&page=1&limit=1&order=desc&sort=created`, { timeout: TIMEOUT_DURATION }).json(),
+      ky.get(`${node.url}/atomicassets/v1/assets?page=1&limit=1&order=desc&sort=asset_id`, { timeout: TIMEOUT_DURATION }).json()
     ]);
 
     //console.log(`Atomic /atomicassets/v1/collections response for node ${node.url}:`, collectionsResponse.data);
     //console.log(`Atomic /atomicassets/v1/templates response for node ${node.url}:`, templatesResponse.data);
     //console.log(`Atomic /atomicassets/v1/assets response for node ${node.url}:`, assetsResponse.data);
 
-    const collectionsData = collectionsResponse.data;
-    const templatesData = templatesResponse.data;
-    const assetsData = assetsResponse.data;
+    const collectionsData = collectionsResponse;
+    const templatesData = templatesResponse;
+    const assetsData = assetsResponse;
 
     if (!collectionsData.success || !templatesData.success || !assetsData.success) {
       console.log(`Node ${node.url} failed due to unsuccessful API responses.`);
@@ -195,14 +195,14 @@ const checkAtomicHealth = async (node) => {
 
     // Additional check with template and asset details
     const [templateResponse, assetResponse] = await Promise.all([
-      axios.get(`${node.url}/atomicassets/v1/templates/kogsofficial/${templateId}`, { timeout: TIMEOUT_DURATION }),
-      axios.get(`${node.url}/atomicassets/v1/assets/${assetId}`, { timeout: TIMEOUT_DURATION })
+      ky.get(`${node.url}/atomicassets/v1/templates/kogsofficial/${templateId}`, { timeout: TIMEOUT_DURATION }).json(),
+      ky.get(`${node.url}/atomicassets/v1/assets/${assetId}`, { timeout: TIMEOUT_DURATION }).json()
     ]);
 
     //console.log(`Atomic /atomicassets/v1/templates/${templateId} response for node ${node.url}:`, templateResponse.data);
     //console.log(`Atomic /atomicassets/v1/assets/${assetId} response for node ${node.url}:`, assetResponse.data);
 
-    if (templateResponse.data.success && assetResponse.data.success) {
+    if (templateResponse.success && assetResponse.success) {
         // Node is healthy, perform geo IP lookup
         const nodeHostname = new URL(node.url).hostname;
         try {
@@ -348,7 +348,7 @@ fastify.get('/nodes', (request, reply) => {
 // Start server
 const start = async () => {
   try {
-    await fastify.listen({ port: PORT, host: '0.0.0.0' }); // Corrected object syntax
+    await fastify.listen({ port: PORT, host: '0.0.0.0' });
     fastify.log.info(`Server running at http://localhost:${PORT}`);
   } catch (err) {
     fastify.log.error(err);
