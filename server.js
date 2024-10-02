@@ -54,8 +54,18 @@ const fetchNodeList = async () => {
 
     // Fetch Hyperion nodes
     const hyperionNodeList = await fetchWithFallback('wax.sengine.co/api/nodes/hyperion');
-    hyperionMainnetNodes = hyperionNodeList.filter(node => node.network === 'mainnet').map(node => ({ url: node.https_node_url }));
-    hyperionTestnetNodes = hyperionNodeList.filter(node => node.network === 'testnet').map(node => ({ url: node.https_node_url }));
+    hyperionMainnetNodes = hyperionNodeList
+      .filter(node => node.network === 'mainnet')
+      .map(node => ({ 
+        url: node.https_node_url, 
+        historyfull: node.historyfull 
+      }));
+    hyperionTestnetNodes = hyperionNodeList
+      .filter(node => node.network === 'testnet')
+      .map(node => ({ 
+        url: node.https_node_url, 
+        historyfull: node.historyfull 
+      }));
 
     // Fetch Atomic nodes
     const atomicNodeList = await fetchWithFallback('wax.sengine.co/api/nodes/atomic');
@@ -100,9 +110,6 @@ const checkHyperionHealth = async (node, latestHeadBlock) => {
       ky.get(`${node.url}/v2/health`, { timeout: TIMEOUT_DURATION }).json()
     ]);
 
-    //console.log(`Hyperion /v2/history/get_actions response for node ${node.url}:`, actionsResponse.data);
-    //console.log(`Hyperion /v2/health response for node ${node.url}:`, healthResponse.data);
-
     const actionsData = actionsResponse;
     const healthData = healthResponse;
 
@@ -135,23 +142,31 @@ const checkHyperionHealth = async (node, latestHeadBlock) => {
     //console.log(`All services OK for node ${node.url}: ${allServicesOK}, Missing blocks: ${missingBlocks}`);
 
     if (allServicesOK && missingBlocks === 0) {
-        // Node is healthy, perform geo IP lookup
-        const nodeHostname = new URL(node.url).hostname;
-        try {
-          const nodeIp = await dns.lookup(nodeHostname);
-          const geo = geoip.lookup(nodeIp.address) || {};
-          node.region = geo.region || 'unknown';
-          node.country = geo.country || 'unknown';
-          node.timezone = geo.timezone || 'unknown';
-          console.log(`Node ${node.url} is healthy. Region: ${node.region}, Country: ${node.country}`);
-        } catch (dnsError) {
-          console.error(`Failed to perform DNS lookup for ${nodeHostname}:`, dnsError.message);
-          node.region = 'unknown';
-          node.country = 'unknown';
-          node.timezone = 'unknown';
-        }
-        return true;
+      // Extract streaming features
+      const streamingFeatures = healthData.features?.streaming || {};
+      node.streaming = {
+        enable: streamingFeatures.enable || false,
+        traces: streamingFeatures.traces || false,
+        deltas: streamingFeatures.deltas || false
+      };
+
+      // Perform geo IP lookup
+      const nodeHostname = new URL(node.url).hostname;
+      try {
+        const nodeIp = await dns.lookup(nodeHostname);
+        const geo = geoip.lookup(nodeIp.address) || {};
+        node.region = geo.region || 'unknown';
+        node.country = geo.country || 'unknown';
+        node.timezone = geo.timezone || 'unknown';
+        console.log(`Node ${node.url} is healthy. Region: ${node.region}, Country: ${node.country}`);
+      } catch (dnsError) {
+        console.error(`Failed to perform DNS lookup for ${nodeHostname}:`, dnsError.message);
+        node.region = 'unknown';
+        node.country = 'unknown';
+        node.timezone = 'unknown';
       }
+      return true;
+    }
 
     console.log(`Node ${node.url} is healthy.`);
     return true;
@@ -321,8 +336,16 @@ fastify.get('/nodes', (request, reply) => {
       return 0;
     });
   
-    // Return the requested number of nodes
-    const response = nodesList.slice(0, parseInt(count, 10));
+    // When preparing the response:
+    const response = nodesList.slice(0, parseInt(count, 10)).map(node => ({
+      url: node.url,
+      region: node.region,
+      country: node.country,
+      timezone: node.timezone,
+      historyfull: node.historyfull, // Include this new property
+      streaming: node.streaming // Include the new streaming information
+    }));
+
     console.log('Responding with:', response);
     reply.send(response);
   });
