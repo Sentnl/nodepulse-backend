@@ -314,11 +314,11 @@ fastify.get('/nodes', (request, reply) => {
   const { 
     type = 'hyperion', 
     network = 'mainnet', 
-    count = 1, 
-    historyfull, 
-    streaming,
-    atomicassets,
-    atomicmarket
+    count = 3, 
+    historyfull = 'true', 
+    streaming = 'true',
+    atomicassets = 'true',
+    atomicmarket = 'true'
   } = request.query;
   const ip = request.ip;
   const userGeo = geoip.lookup(ip) || {};
