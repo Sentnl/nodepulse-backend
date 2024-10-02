@@ -105,43 +105,51 @@ const fetchLatestHeadBlock = async (nodes) => {
 
 // Update health checks for all mainnet nodes
 const updateHealthChecks = async () => {
-  if (!hyperionMainnetNodes.length || !atomicMainnetNodes.length) {
-    fastify.log.warn('Mainnet node list is empty. Fetching node list...');
-    await fetchNodeList(); // Fetch node list initially if empty
-  }
+  if (!hyperionMainnetNodes.length || !atomicMainnetNodes.length || !hyperionTestnetNodes.length || !atomicTestnetNodes.length) {
+    fastify.log.warn('Node list is empty. Fetching node list...');
+    await fetchNodeList();
+  }  // <-- Added missing closing brace here
 
-  // Fetch the latest head block from mainnet Hyperion nodes
-  const latestHeadBlock = await fetchLatestHeadBlock(hyperionMainnetNodes);
-
-  if (!latestHeadBlock
-
-) {
-    fastify.log.error('Failed to fetch the latest head block.');
-    return;
-  }
-
-  const healthyHyperionNodes = [];
-  const healthyAtomicNodes = [];
+  const healthyHyperionMainnetNodes = [];
+  const healthyHyperionTestnetNodes = [];
+  const healthyAtomicMainnetNodes = [];
+  const healthyAtomicTestnetNodes = [];
 
   for (const node of hyperionMainnetNodes) {
-    const isHealthy = await checkHyperionHealth(node, latestHeadBlock);
+    const isHealthy = await checkHyperionHealth(node, TIMEOUT_DURATION);
     if (isHealthy) {
-      healthyHyperionNodes.push(node);
+      healthyHyperionMainnetNodes.push(node);
+    }
+  }
+
+  for (const node of hyperionTestnetNodes) {
+    const isHealthy = await checkHyperionHealth(node, TIMEOUT_DURATION);
+    if (isHealthy) {
+      healthyHyperionTestnetNodes.push(node);
     }
   }
 
   for (const node of atomicMainnetNodes) {
     const isHealthy = await checkAtomicHealth(node);
     if (isHealthy) {
-      healthyAtomicNodes.push(node);
+      healthyAtomicMainnetNodes.push(node);
     }
   }
 
-  healthyNodes.hyperion.mainnet = healthyHyperionNodes;
-  healthyNodes.atomic.mainnet = healthyAtomicNodes;
+  for (const node of atomicTestnetNodes) {
+    const isHealthy = await checkAtomicHealth(node);
+    if (isHealthy) {
+      healthyAtomicTestnetNodes.push(node);
+    }
+  }
 
-  
-  fastify.log.info(`Health check completed. Healthy Hyperion mainnet nodes: ${healthyHyperionNodes.length}, Healthy Atomic mainnet nodes: ${healthyAtomicNodes.length}`);
+  healthyNodes.hyperion.mainnet = healthyHyperionMainnetNodes;
+  healthyNodes.hyperion.testnet = healthyHyperionTestnetNodes;
+  healthyNodes.atomic.mainnet = healthyAtomicMainnetNodes;
+  healthyNodes.atomic.testnet = healthyAtomicTestnetNodes;
+
+  fastify.log.info(`Health check completed. Healthy Hyperion nodes: mainnet ${healthyHyperionMainnetNodes.length}, testnet ${healthyHyperionTestnetNodes.length}`);
+  fastify.log.info(`Healthy Atomic nodes: mainnet ${healthyAtomicMainnetNodes.length}, testnet ${healthyAtomicTestnetNodes.length}`);
   console.log('Updated healthyNodes:', JSON.stringify(healthyNodes, null, 2));
   // Update the next health check time
   nextHealthCheckTime = Date.now() + HEALTH_CHECK_INTERVAL;

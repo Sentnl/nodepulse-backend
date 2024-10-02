@@ -3,7 +3,7 @@ import dns from 'dns/promises';
 import geoip from 'geoip-lite';
 import { formatUrl } from '../utils/utils.js';
 
-const checkHyperionHealth = async (node, latestHeadBlock, TIMEOUT_DURATION) => {
+const checkHyperionHealth = async (node, TIMEOUT_DURATION) => {
   try {
     console.log(`Checking Hyperion health for node: ${node.url}`);
 

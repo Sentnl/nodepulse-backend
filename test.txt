@@ -1,0 +1,4412 @@
+{"level":40,"time":1727874006621,"pid":85425,"hostname":"Charless-MacBook-Pro.local","msg":"Node list is empty. Fetching node list..."}
+{"level":30,"time":1727874006645,"pid":85425,"hostname":"Charless-MacBook-Pro.local","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1727874006645,"pid":85425,"hostname":"Charless-MacBook-Pro.local","msg":"Server listening at http://192.168.0.3:3000"}
+{"level":30,"time":1727874006645,"pid":85425,"hostname":"Charless-MacBook-Pro.local","msg":"Server listening at http://172.16.0.53:3000"}
+{"level":30,"time":1727874006645,"pid":85425,"hostname":"Charless-MacBook-Pro.local","msg":"Server running at http://localhost:3000"}
+{"level":30,"time":1727874006905,"pid":85425,"hostname":"Charless-MacBook-Pro.local","msg":"Node list updated."}
+Checking Hyperion health for node: https://hyperion.waxdaobp.io
+{"level":30,"time":1727874006912,"pid":85425,"hostname":"Charless-MacBook-Pro.local","msg":"Node list updated."}
+Node https://hyperion.waxdaobp.io is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://wax-hyperion.alcor.exchange
+Node https://wax-hyperion.alcor.exchange is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://hyperion.wax.detroitledger.tech
+Node https://hyperion.wax.detroitledger.tech is healthy. Region: VA, Country: US
+Checking Hyperion health for node: https://wax.eosdublin.io
+Node https://wax.eosdublin.io is healthy. Region: 18, Country: FI
+Checking Hyperion health for node: https://wax.eosrio.io
+Node https://wax.eosrio.io is healthy. Region: SP, Country: BR
+Checking Hyperion health for node: https://wax.eosphere.io
+Node https://wax.eosphere.io is healthy. Region: unknown, Country: CA
+Checking Hyperion health for node: https://hyperion-wax.a-dex.xyz
+Node https://hyperion-wax.a-dex.xyz is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://wax.qaraqol.com
+Node https://wax.qaraqol.com is healthy. Region: 18, Country: FI
+Checking Hyperion health for node: https://hyperion7.sentnl.io
+Node https://hyperion7.sentnl.io is healthy. Region: unknown, Country: DE
+Checking Hyperion health for node: https://api-wax.tacocrypto.io/hyperion
+Node https://api-wax.tacocrypto.io/hyperion is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://wax.blokcrafters.io
+Node https://wax.blokcrafters.io is healthy. Region: unknown, Country: CA
+Checking Hyperion health for node: https://waxapi.ledgerwise.io
+Node https://waxapi.ledgerwise.io is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://api.wax.liquidstudios.io
+Time until next health check: 510 seconds
+Node https://api.wax.liquidstudios.io is unhealthy.
+Checking Hyperion health for node: https://hyperion.oiac.io
+Node https://hyperion.oiac.io is healthy. Region: unknown, Country: DE
+Checking Hyperion health for node: https://api.waxsweden.org
+Node https://api.waxsweden.org is unhealthy.
+Checking Hyperion health for node: https://wax.hivebp.io
+Node https://wax.hivebp.io is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://wax.eosusa.io
+Node https://wax.eosusa.io is healthy. Region: SC, Country: US
+Checking Hyperion health for node: https://api.wax.greeneosio.com
+Node https://api.wax.greeneosio.com is healthy. Region: 18, Country: FI
+Checking Hyperion health for node: https://api.waxeastern.cn
+Checking Hyperion health for node: https://apiwax.3dkrender.com
+Node https://apiwax.3dkrender.com is unhealthy.
+Checking Hyperion health for node: https://wax.defibox.xyz
+Node https://wax.defibox.xyz is healthy. Region: 18, Country: FI
+Checking Hyperion health for node: https://wax.cryptolions.io
+Checking Hyperion health for node: https://hyperion-wax-mainnet.wecan.dev
+Node https://hyperion-wax-mainnet.wecan.dev is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://api.wax.alohaeos.com
+Time until next health check: 500 seconds
+Node https://api.wax.alohaeos.com is healthy. Region: VA, Country: US
+Checking Hyperion health for node: https://wax.eu.eosamsterdam.net
+Node https://wax.eu.eosamsterdam.net is unhealthy.
+Checking Hyperion health for node: https://wax.blokcrafters.io
+Node https://wax.blokcrafters.io is healthy. Region: QC, Country: CA
+Checking Hyperion health for node: https://wax-api.eosiomadrid.io
+Node https://wax-api.eosiomadrid.io is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://api-wax.eosauthority.com
+Node https://api-wax.eosauthority.com is unhealthy.
+Checking Hyperion health for node: https://wax-history.eosdac.io
+Node https://wax-history.eosdac.io is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://wax.dapplica.io
+Checking Hyperion health for node: https://api-wax.eosarabia.net
+Node https://api-wax.eosarabia.net is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://history-test.waxdaobp.io
+Checking Hyperion health for node: https://waxtest-hyperion.alcor.exchange
+Node https://waxtest-hyperion.alcor.exchange is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://hyperion.testnet.wax.detroitledger.tech
+Node https://hyperion.testnet.wax.detroitledger.tech is healthy. Region: MI, Country: US
+Checking Hyperion health for node: https://wax.testnet.eosdublin.io
+Node https://wax.testnet.eosdublin.io is healthy. Region: 18, Country: FI
+Checking Hyperion health for node: https://testnet.wax.eosrio.io
+Node https://testnet.wax.eosrio.io is healthy. Region: RJ, Country: BR
+Checking Hyperion health for node: https://wax-testnet.eosphere.io
+Time until next health check: 490 seconds
+Node https://wax-testnet.eosphere.io is healthy. Region: VIC, Country: AU
+Checking Hyperion health for node: https://hyperion-wax-testnet.a-dex.xyz
+Node https://hyperion-wax-testnet.a-dex.xyz is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://waxtest.qaraqol.com
+Node https://waxtest.qaraqol.com is healthy. Region: 18, Country: FI
+Checking Hyperion health for node: https://hyperion-test.sentnl.io
+Node https://hyperion-test.sentnl.io is healthy. Region: unknown, Country: DE
+Checking Hyperion health for node: https://wax-testnet-hyperion.neftyblocks.com
+Node https://wax-testnet-hyperion.neftyblocks.com is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://wax-test.tacocrypto.io/hyperion
+Node https://wax-test.tacocrypto.io/hyperion is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://wax-test.blokcrafters.io
+{"level":30,"time":1727874042135,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-1","req":{"method":"GET","url":"/nodes?type=atomic&network=testnet","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'atomic',
+  network: 'testnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for atomic testnet: []
+Filtered nodes list: []
+No healthy atomic nodes available for testnet with the specified filters.
+{"level":30,"time":1727874042140,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-1","res":{"statusCode":503},"responseTime":4.963415145874023,"msg":"request completed"}
+Node https://wax-test.blokcrafters.io is healthy. Region: unknown, Country: CA
+Checking Hyperion health for node: https://waxtestnet.ledgerwise.io
+Node https://waxtestnet.ledgerwise.io is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://api.wax-test.liquidstudios.io
+Node https://api.wax-test.liquidstudios.io is healthy. Region: unknown, Country: DE
+Checking Hyperion health for node: https://hyperion-test.oiac.io
+Node https://hyperion-test.oiac.io is healthy. Region: unknown, Country: DE
+Checking Hyperion health for node: https://testnet.waxsweden.org
+Node https://testnet.waxsweden.org is healthy. Region: BY, Country: DE
+Checking Hyperion health for node: https://hyperion-test.hivebp.io
+Node https://hyperion-test.hivebp.io is unhealthy.
+Checking Hyperion health for node: https://test.wax.eosusa.io
+Node https://test.wax.eosusa.io is healthy. Region: SC, Country: US
+Checking Hyperion health for node: https://api.waxtest.waxgalaxy.io
+Node https://api.waxtest.waxgalaxy.io is healthy. Region: 18, Country: FI
+Checking Hyperion health for node: https://api.testnet.waxeastern.cn
+Time until next health check: 480 seconds
+{"level":30,"time":1727874047086,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-2","req":{"method":"GET","url":"/nodes?type=atomic","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'atomic',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for atomic mainnet: []
+Filtered nodes list: []
+No healthy atomic nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874047088,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-2","res":{"statusCode":503},"responseTime":1.37066650390625,"msg":"request completed"}
+Checking Hyperion health for node: https://tapiwax.3dkrender.com
+Node https://tapiwax.3dkrender.com is healthy. Region: 18, Country: FI
+Checking Hyperion health for node: https://waxtest.defibox.xyz
+Node https://waxtest.defibox.xyz is healthy. Region: 18, Country: FI
+Checking Hyperion health for node: https://wax-testnet.cryptolions.io
+Node https://wax-testnet.cryptolions.io is healthy. Region: HE, Country: DE
+Checking Hyperion health for node: https://api.wax-test.bountyblok.io
+Node https://api.wax-test.bountyblok.io is healthy. Region: QC, Country: CA
+Checking Hyperion health for node: https://hyperion-wax-testnet.wecan.dev
+Node https://hyperion-wax-testnet.wecan.dev is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://waxtest.eu.eosamsterdam.net
+Node https://waxtest.eu.eosamsterdam.net is healthy. Region: unknown, Country: DE
+Checking Hyperion health for node: https://testnet.wax.blacklusion.io
+Node https://testnet.wax.blacklusion.io is healthy. Region: unknown, Country: DE
+Checking Hyperion health for node: https://wax-test.blokcrafters.io
+{"level":30,"time":1727874052766,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-3","req":{"method":"GET","url":"/nodes?type=hyperion&network=testnet","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'testnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion testnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for testnet with the specified filters.
+{"level":30,"time":1727874052770,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-3","res":{"statusCode":503},"responseTime":4.404706954956055,"msg":"request completed"}
+Node https://wax-test.blokcrafters.io is healthy. Region: unknown, Country: CA
+Checking Hyperion health for node: https://wax-testnet-hyperion.eosiomadrid.io
+Node https://wax-testnet-hyperion.eosiomadrid.io is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://api-waxtest.eosauthority.com
+Node https://api-waxtest.eosauthority.com is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://waxtest.eosdac.io
+Node https://waxtest.eosdac.io is healthy. Region: unknown, Country: US
+Checking Hyperion health for node: https://wax-testnet.dapplica.io
+Node https://wax-testnet.dapplica.io is healthy. Region: SN, Country: DE
+Checking Hyperion health for node: https://api-testnet-wax.eosarabia.net
+Node https://api-testnet-wax.eosarabia.net is healthy. Region: NI, Country: DE
+Checking Atomic API health for node: https://aa.waxdaobp.io
+Node https://aa.waxdaobp.io - Initial API calls successful
+Node https://aa.waxdaobp.io - Checking atomicassets
+Node https://aa.waxdaobp.io - Collections, templates, and assets data retrieved successfully
+Node https://aa.waxdaobp.io - Template ID: 811609, Asset ID: 1099946402616
+Time until next health check: 470 seconds
+Node https://aa.waxdaobp.io - atomicassets check passed
+Node https://aa.waxdaobp.io - Checking atomicmarket
+Node https://aa.waxdaobp.io - Market Asset ID: 1099850387831
+Node https://aa.waxdaobp.io - atomicmarket check passed
+Node https://aa.waxdaobp.io is healthy. Atomicassets: true, Atomicmarket: true
+Node https://aa.waxdaobp.io geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://wax-atomic.alcor.exchange
+Node https://wax-atomic.alcor.exchange - Initial API calls successful
+Node https://wax-atomic.alcor.exchange - Checking atomicassets
+Node https://wax-atomic.alcor.exchange - Collections, templates, and assets data retrieved successfully
+Node https://wax-atomic.alcor.exchange - Template ID: 811609, Asset ID: 1099946402617
+Node https://wax-atomic.alcor.exchange - atomicassets check passed
+Node https://wax-atomic.alcor.exchange - Checking atomicmarket
+Node https://wax-atomic.alcor.exchange - Market Asset ID: 1099850387831
+Node https://wax-atomic.alcor.exchange - atomicmarket check passed
+Node https://wax-atomic.alcor.exchange is healthy. Atomicassets: true, Atomicmarket: true
+Node https://wax-atomic.alcor.exchange geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://atomic.wax.detroitledger.tech
+Checking Atomic API health for node: https://wax-aa.eosdublin.io
+Checking Atomic API health for node: https://atomic.wax.eosrio.io
+Node https://atomic.wax.eosrio.io - Initial API calls successful
+Node https://atomic.wax.eosrio.io - Checking atomicassets
+Node https://atomic.wax.eosrio.io - Collections, templates, and assets data retrieved successfully
+Node https://atomic.wax.eosrio.io - Template ID: 811609, Asset ID: 1099946402617
+Node https://atomic.wax.eosrio.io - atomicassets check passed
+Node https://atomic.wax.eosrio.io - Checking atomicmarket
+Node https://atomic.wax.eosrio.io - Market Asset ID: 1099850387831
+Node https://atomic.wax.eosrio.io - atomicmarket check passed
+Node https://atomic.wax.eosrio.io is healthy. Atomicassets: true, Atomicmarket: true
+Node https://atomic.wax.eosrio.io geo info: Region: RJ, Country: BR, Timezone: America/Sao_Paulo
+Checking Atomic API health for node: https://wax-atomic-api.eosphere.io
+Node https://wax-atomic-api.eosphere.io - Initial API calls successful
+Node https://wax-atomic-api.eosphere.io - Checking atomicassets
+Node https://wax-atomic-api.eosphere.io - Collections, templates, and assets data retrieved successfully
+Node https://wax-atomic-api.eosphere.io - Template ID: 811609, Asset ID: 1099946402617
+Node https://wax-atomic-api.eosphere.io - atomicassets check passed
+Node https://wax-atomic-api.eosphere.io - Checking atomicmarket
+Node https://wax-atomic-api.eosphere.io - Market Asset ID: 1099850387831
+Node https://wax-atomic-api.eosphere.io - atomicmarket check passed
+Node https://wax-atomic-api.eosphere.io is healthy. Atomicassets: true, Atomicmarket: true
+Node https://wax-atomic-api.eosphere.io geo info: Region: QC, Country: CA, Timezone: America/Toronto
+Checking Atomic API health for node: https://atomic-wax.a-dex.xyz
+Node https://atomic-wax.a-dex.xyz - Initial API calls successful
+Node https://atomic-wax.a-dex.xyz - Checking atomicassets
+Node https://atomic-wax.a-dex.xyz - Collections, templates, and assets data retrieved successfully
+Node https://atomic-wax.a-dex.xyz - Template ID: 811609, Asset ID: 1099946402617
+Node https://atomic-wax.a-dex.xyz - atomicassets check passed
+Node https://atomic-wax.a-dex.xyz - Checking atomicmarket
+Node https://atomic-wax.a-dex.xyz - Market Asset ID: 1099850387831
+Node https://atomic-wax.a-dex.xyz - atomicmarket check passed
+Node https://atomic-wax.a-dex.xyz is healthy. Atomicassets: true, Atomicmarket: true
+Node https://atomic-wax.a-dex.xyz geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://atomic-wax.qaraqol.com
+Time until next health check: 460 seconds
+Node https://atomic-wax.qaraqol.com - Initial API calls successful
+Node https://atomic-wax.qaraqol.com - Checking atomicassets
+Node https://atomic-wax.qaraqol.com - Collections, templates, and assets data retrieved successfully
+Node https://atomic-wax.qaraqol.com - Template ID: 811609, Asset ID: 1099946402617
+Node https://atomic-wax.qaraqol.com - atomicassets check passed
+Node https://atomic-wax.qaraqol.com - Checking atomicmarket
+Node https://atomic-wax.qaraqol.com - Market Asset ID: 1099850387831
+Node https://atomic-wax.qaraqol.com - atomicmarket check passed
+Node https://atomic-wax.qaraqol.com is healthy. Atomicassets: true, Atomicmarket: true
+Node https://atomic-wax.qaraqol.com geo info: Region: 18, Country: FI, Timezone: Europe/Helsinki
+Checking Atomic API health for node: https://atomic.sentnl.io/
+Node https://atomic.sentnl.io/ - Initial API calls successful
+Node https://atomic.sentnl.io/ - Checking atomicassets
+Node https://atomic.sentnl.io/ - Collections, templates, and assets data retrieved successfully
+Node https://atomic.sentnl.io/ - Template ID: 811609, Asset ID: 1099946402617
+Node https://atomic.sentnl.io/ - atomicassets check passed
+Node https://atomic.sentnl.io/ - Checking atomicmarket
+Node https://atomic.sentnl.io/ - Market Asset ID: 1099850387831
+Node https://atomic.sentnl.io/ - atomicmarket check passed
+Node https://atomic.sentnl.io/ is healthy. Atomicassets: true, Atomicmarket: true
+Node https://atomic.sentnl.io/ geo info: Region: unknown, Country: FR, Timezone: Europe/Paris
+Checking Atomic API health for node: https://aa-wax-public1.neftyblocks.com
+Checking Atomic API health for node: https://atomic-wax.tacocrypto.io
+Node https://atomic-wax.tacocrypto.io - Initial API calls successful
+Node https://atomic-wax.tacocrypto.io - Checking atomicassets
+Node https://atomic-wax.tacocrypto.io - Collections, templates, and assets data retrieved successfully
+Node https://atomic-wax.tacocrypto.io - Template ID: 811609, Asset ID: 1099946402618
+Node https://atomic-wax.tacocrypto.io - atomicassets check passed
+Node https://atomic-wax.tacocrypto.io - Checking atomicmarket
+Node https://atomic-wax.tacocrypto.io - Market Asset ID: 1099850387831
+Node https://atomic-wax.tacocrypto.io - atomicmarket check passed
+Node https://atomic-wax.tacocrypto.io is healthy. Atomicassets: true, Atomicmarket: true
+Node https://atomic-wax.tacocrypto.io geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://wax.api.atomicassets.io
+Node https://wax.api.atomicassets.io - Initial API calls successful
+Node https://wax.api.atomicassets.io - Checking atomicassets
+Node https://wax.api.atomicassets.io - Collections, templates, and assets data retrieved successfully
+Node https://wax.api.atomicassets.io - Template ID: 811609, Asset ID: 1099946402618
+Node https://wax.api.atomicassets.io - atomicassets check passed
+Node https://wax.api.atomicassets.io - Checking atomicmarket
+Node https://wax.api.atomicassets.io - Market Asset ID: 1099850387831
+Node https://wax.api.atomicassets.io - atomicmarket check passed
+Node https://wax.api.atomicassets.io is healthy. Atomicassets: true, Atomicmarket: true
+Node https://wax.api.atomicassets.io geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://wax.blokcrafters.io
+Checking Atomic API health for node: https://atomicassets.ledgerwise.io
+Checking Atomic API health for node: https://api.wax.liquidstudios.io
+Time until next health check: 450 seconds
+{"level":30,"time":1727874083506,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-4","req":{"method":"GET","url":"/nodes?type=hyperion&network=testnet","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'testnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion testnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for testnet with the specified filters.
+{"level":30,"time":1727874083508,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-4","res":{"statusCode":503},"responseTime":2.292499542236328,"msg":"request completed"}
+Checking Atomic API health for node: https://atomic.oiac.io/
+Node https://atomic.oiac.io/ - Initial API calls successful
+Node https://atomic.oiac.io/ - Checking atomicassets
+Node https://atomic.oiac.io/ - Collections, templates, and assets data retrieved successfully
+Node https://atomic.oiac.io/ - Template ID: 811609, Asset ID: 1099946402621
+Time until next health check: 440 seconds
+Node https://atomic.oiac.io/ - atomicassets check passed
+Node https://atomic.oiac.io/ - Checking atomicmarket
+Node https://atomic.oiac.io/ - Market Asset ID: 1099850387831
+Node https://atomic.oiac.io/ - atomicmarket check passed
+Node https://atomic.oiac.io/ is healthy. Atomicassets: true, Atomicmarket: true
+Node https://atomic.oiac.io/ geo info: Region: unknown, Country: DE, Timezone: Europe/Berlin
+Checking Atomic API health for node: https://atomic.hivebp.io
+Node https://atomic.hivebp.io - Initial API calls successful
+Node https://atomic.hivebp.io - Checking atomicassets
+Node https://atomic.hivebp.io - Collections, templates, and assets data retrieved successfully
+Node https://atomic.hivebp.io - Template ID: 811609, Asset ID: 1099946402621
+{"level":30,"time":1727874087670,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-5","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874087673,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-5","res":{"statusCode":503},"responseTime":3.325418472290039,"msg":"request completed"}
+{"level":30,"time":1727874089105,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-6","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874089107,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-6","res":{"statusCode":503},"responseTime":1.013082504272461,"msg":"request completed"}
+Node https://atomic.hivebp.io - atomicassets check passed
+Node https://atomic.hivebp.io - Checking atomicmarket
+Node https://atomic.hivebp.io - Market Asset ID: 1099850387831
+{"level":30,"time":1727874090272,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-7","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874090273,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-7","res":{"statusCode":503},"responseTime":0.7367916107177734,"msg":"request completed"}
+{"level":30,"time":1727874090761,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-8","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874090763,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-8","res":{"statusCode":503},"responseTime":1.0818347930908203,"msg":"request completed"}
+{"level":30,"time":1727874091195,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-9","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874091197,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-9","res":{"statusCode":503},"responseTime":1.767416000366211,"msg":"request completed"}
+Node https://atomic.hivebp.io - atomicmarket check passed
+Node https://atomic.hivebp.io is healthy. Atomicassets: true, Atomicmarket: true
+Node https://atomic.hivebp.io geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://wax.eosusa.io
+Node https://wax.eosusa.io - Initial API calls successful
+Node https://wax.eosusa.io - Checking atomicassets
+Node https://wax.eosusa.io - Collections, templates, and assets data retrieved successfully
+Node https://wax.eosusa.io - Template ID: 811609, Asset ID: 1099946402626
+Node https://wax.eosusa.io - atomicassets check passed
+Node https://wax.eosusa.io - Checking atomicmarket
+Node https://wax.eosusa.io - Market Asset ID: 1099850387831
+Node https://wax.eosusa.io - atomicmarket check passed
+Node https://wax.eosusa.io is healthy. Atomicassets: true, Atomicmarket: true
+Node https://wax.eosusa.io geo info: Region: SC, Country: US, Timezone: America/New_York
+Checking Atomic API health for node: https://api.atomic.greeneosio.com
+Node https://api.atomic.greeneosio.com - Initial API calls successful
+Node https://api.atomic.greeneosio.com - Checking atomicassets
+Node https://api.atomic.greeneosio.com - Collections, templates, and assets data retrieved successfully
+Node https://api.atomic.greeneosio.com - Template ID: 811609, Asset ID: 1099946402626
+Node https://api.atomic.greeneosio.com - atomicassets check passed
+Node https://api.atomic.greeneosio.com - Checking atomicmarket
+Node https://api.atomic.greeneosio.com - Market Asset ID: 1099850387831
+Node https://api.atomic.greeneosio.com - atomicmarket check passed
+Node https://api.atomic.greeneosio.com is healthy. Atomicassets: true, Atomicmarket: true
+Node https://api.atomic.greeneosio.com geo info: Region: 18, Country: FI, Timezone: Europe/Helsinki
+Checking Atomic API health for node: https://api.waxeastern.cn
+Checking Atomic API health for node: https://atomic.3dkrender.com
+Node https://atomic.3dkrender.com - Initial API calls successful
+Node https://atomic.3dkrender.com - Checking atomicassets
+Node https://atomic.3dkrender.com - Collections, templates, and assets data retrieved successfully
+Node https://atomic.3dkrender.com - Template ID: 811609, Asset ID: 1099946402627
+Node https://atomic.3dkrender.com - atomicassets check passed
+Node https://atomic.3dkrender.com - Checking atomicmarket
+Node https://atomic.3dkrender.com - Market Asset ID: 1099850387831
+Node https://atomic.3dkrender.com - atomicmarket check passed
+Node https://atomic.3dkrender.com is healthy. Atomicassets: true, Atomicmarket: true
+Node https://atomic.3dkrender.com geo info: Region: 18, Country: FI, Timezone: Europe/Helsinki
+Checking Atomic API health for node: https://wax.defibox.xyz
+Time until next health check: 430 seconds
+Checking Atomic API health for node: https://atomic-api.wax.cryptolions.io
+Node https://atomic-api.wax.cryptolions.io - Initial API calls successful
+Node https://atomic-api.wax.cryptolions.io - Checking atomicassets
+Node https://atomic-api.wax.cryptolions.io - Collections, templates, and assets data retrieved successfully
+Node https://atomic-api.wax.cryptolions.io - Template ID: 811609, Asset ID: 1099946397110
+Node https://atomic-api.wax.cryptolions.io - atomicassets check passed
+Node https://atomic-api.wax.cryptolions.io - Checking atomicmarket
+Node https://atomic-api.wax.cryptolions.io - Market Asset ID: 1099850387831
+Node https://atomic-api.wax.cryptolions.io - atomicmarket check passed
+Node https://atomic-api.wax.cryptolions.io is healthy. Atomicassets: true, Atomicmarket: true
+Node https://atomic-api.wax.cryptolions.io geo info: Region: HE, Country: DE, Timezone: Europe/Berlin
+Checking Atomic API health for node: https://atomic-wax-mainnet.wecan.dev
+Node https://atomic-wax-mainnet.wecan.dev - Initial API calls successful
+Node https://atomic-wax-mainnet.wecan.dev - Checking atomicassets
+Node https://atomic-wax-mainnet.wecan.dev - Collections, templates, and assets data retrieved successfully
+Node https://atomic-wax-mainnet.wecan.dev - Template ID: 811609, Asset ID: 1099946402628
+Node https://atomic-wax-mainnet.wecan.dev - atomicassets check passed
+Node https://atomic-wax-mainnet.wecan.dev - Checking atomicmarket
+Node https://atomic-wax-mainnet.wecan.dev - Market Asset ID: 1099850387831
+Node https://atomic-wax-mainnet.wecan.dev - atomicmarket check passed
+Node https://atomic-wax-mainnet.wecan.dev is healthy. Atomicassets: true, Atomicmarket: true
+Node https://atomic-wax-mainnet.wecan.dev geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://wax-aa.eu.eosamsterdam.net
+Node https://wax-aa.eu.eosamsterdam.net - Initial API calls successful
+Node https://wax-aa.eu.eosamsterdam.net - Checking atomicassets
+Node https://wax-aa.eu.eosamsterdam.net - Collections, templates, and assets data retrieved successfully
+Node https://wax-aa.eu.eosamsterdam.net - Template ID: 811609, Asset ID: 1099946402629
+Node https://wax-aa.eu.eosamsterdam.net - atomicassets check passed
+Node https://wax-aa.eu.eosamsterdam.net - Checking atomicmarket
+Node https://wax-aa.eu.eosamsterdam.net - Market Asset ID: 1099850387831
+Node https://wax-aa.eu.eosamsterdam.net - atomicmarket check passed
+Node https://wax-aa.eu.eosamsterdam.net is healthy. Atomicassets: true, Atomicmarket: true
+Node https://wax-aa.eu.eosamsterdam.net geo info: Region: 18, Country: FI, Timezone: Europe/Helsinki
+Checking Atomic API health for node: https://aa.wax.blacklusion.io
+Checking Atomic API health for node: https://wax.blokcrafters.io
+Checking Atomic API health for node: https://wax-atomic.eosiomadrid.io
+Node https://wax-atomic.eosiomadrid.io - Initial API calls successful
+Node https://wax-atomic.eosiomadrid.io - Checking atomicassets
+Node https://wax-atomic.eosiomadrid.io - Collections, templates, and assets data retrieved successfully
+Node https://wax-atomic.eosiomadrid.io - Template ID: 811609, Asset ID: 1099946402636
+Node https://wax-atomic.eosiomadrid.io - atomicassets check passed
+Node https://wax-atomic.eosiomadrid.io - Checking atomicmarket
+Node https://wax-atomic.eosiomadrid.io - Market Asset ID: 1099850387831
+Node https://wax-atomic.eosiomadrid.io - atomicmarket check passed
+Node https://wax-atomic.eosiomadrid.io is healthy. Atomicassets: true, Atomicmarket: true
+Node https://wax-atomic.eosiomadrid.io geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://aa-api-wax.eosauthority.com
+Checking Atomic API health for node: https://wax-aa.eosdac.io
+Node https://wax-aa.eosdac.io - Initial API calls successful
+Node https://wax-aa.eosdac.io - Checking atomicassets
+Node https://wax-aa.eosdac.io - Collections, templates, and assets data retrieved successfully
+Node https://wax-aa.eosdac.io - Template ID: 811609, Asset ID: 1099946402637
+Node https://wax-aa.eosdac.io - atomicassets check passed
+Node https://wax-aa.eosdac.io - Checking atomicmarket
+Node https://wax-aa.eosdac.io - Market Asset ID: 1099850387831
+Node https://wax-aa.eosdac.io - atomicmarket check passed
+Node https://wax-aa.eosdac.io is healthy. Atomicassets: true, Atomicmarket: true
+Node https://wax-aa.eosdac.io geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://aa.dapplica.io
+Time until next health check: 420 seconds
+Node https://aa.dapplica.io - Initial API calls successful
+Node https://aa.dapplica.io - Checking atomicassets
+Node https://aa.dapplica.io - Collections, templates, and assets data retrieved successfully
+Node https://aa.dapplica.io - Template ID: 811609, Asset ID: 1099946402637
+Node https://aa.dapplica.io - atomicassets check passed
+Node https://aa.dapplica.io - Checking atomicmarket
+Node https://aa.dapplica.io - Market Asset ID: 1099850387831
+Node https://aa.dapplica.io - atomicmarket check passed
+Node https://aa.dapplica.io is healthy. Atomicassets: true, Atomicmarket: true
+Node https://aa.dapplica.io geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://api-wax-aa.eosarabia.net
+Node https://api-wax-aa.eosarabia.net - Initial API calls successful
+Node https://api-wax-aa.eosarabia.net - Checking atomicassets
+Node https://api-wax-aa.eosarabia.net - Collections, templates, and assets data retrieved successfully
+Node https://api-wax-aa.eosarabia.net - Template ID: 811609, Asset ID: 1099946402637
+Node https://api-wax-aa.eosarabia.net - atomicassets check passed
+Node https://api-wax-aa.eosarabia.net - Checking atomicmarket
+Node https://api-wax-aa.eosarabia.net - Market Asset ID: 1099850387831
+Node https://api-wax-aa.eosarabia.net - atomicmarket check passed
+Node https://api-wax-aa.eosarabia.net is healthy. Atomicassets: true, Atomicmarket: true
+Node https://api-wax-aa.eosarabia.net geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://atomic.testnet.wax.detroitledger.tech
+Node https://atomic.testnet.wax.detroitledger.tech - Initial API calls successful
+Node https://atomic.testnet.wax.detroitledger.tech - Checking atomicassets
+Node https://atomic.testnet.wax.detroitledger.tech - Collections, templates, and assets data retrieved successfully
+Node https://atomic.testnet.wax.detroitledger.tech - Template ID: 527086, Asset ID: 1099589981893
+Node https://atomic.testnet.wax.detroitledger.tech - atomicassets check passed
+Node https://atomic.testnet.wax.detroitledger.tech - Checking atomicmarket
+Node https://atomic.testnet.wax.detroitledger.tech - atomicmarket check failed. Market assets data success: true, Data length: 0
+Node https://atomic.testnet.wax.detroitledger.tech is healthy. Atomicassets: true, Atomicmarket: false
+Node https://atomic.testnet.wax.detroitledger.tech geo info: Region: MI, Country: US, Timezone: America/Detroit
+Checking Atomic API health for node: https://atomic-waxtest.qaraqol.com
+Node https://atomic-waxtest.qaraqol.com - Initial API calls successful
+Node https://atomic-waxtest.qaraqol.com - Checking atomicassets
+Node https://atomic-waxtest.qaraqol.com - Collections, templates, and assets data retrieved successfully
+Node https://atomic-waxtest.qaraqol.com - Template ID: 527086, Asset ID: 1099589981893
+Node https://atomic-waxtest.qaraqol.com - atomicassets check passed
+Node https://atomic-waxtest.qaraqol.com - Checking atomicmarket
+Node https://atomic-waxtest.qaraqol.com - atomicmarket check failed. Market assets data success: true, Data length: 0
+Node https://atomic-waxtest.qaraqol.com is healthy. Atomicassets: true, Atomicmarket: false
+Node https://atomic-waxtest.qaraqol.com geo info: Region: 18, Country: FI, Timezone: Europe/Helsinki
+Checking Atomic API health for node: https://aa-testnet-public.neftyblocks.com
+Node https://aa-testnet-public.neftyblocks.com - Initial API calls successful
+Node https://aa-testnet-public.neftyblocks.com - Checking atomicassets
+Node https://aa-testnet-public.neftyblocks.com - Collections, templates, and assets data retrieved successfully
+Node https://aa-testnet-public.neftyblocks.com - Template ID: 527086, Asset ID: 1099589981893
+Node https://aa-testnet-public.neftyblocks.com - atomicassets check passed
+Node https://aa-testnet-public.neftyblocks.com - Checking atomicmarket
+Node https://aa-testnet-public.neftyblocks.com - atomicmarket check failed. Market assets data success: true, Data length: 0
+Node https://aa-testnet-public.neftyblocks.com is healthy. Atomicassets: true, Atomicmarket: false
+Node https://aa-testnet-public.neftyblocks.com geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://atomic-wax-test.tacocrypto.io
+Node https://atomic-wax-test.tacocrypto.io - Initial API calls successful
+Node https://atomic-wax-test.tacocrypto.io - Checking atomicassets
+Node https://atomic-wax-test.tacocrypto.io - Collections, templates, and assets data retrieved successfully
+Node https://atomic-wax-test.tacocrypto.io - Template ID: 527086, Asset ID: 1099589981893
+{"level":30,"time":1727874111468,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-a","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874111470,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-a","res":{"statusCode":503},"responseTime":1.7892913818359375,"msg":"request completed"}
+Node https://atomic-wax-test.tacocrypto.io - atomicassets check passed
+Node https://atomic-wax-test.tacocrypto.io - Checking atomicmarket
+Node https://atomic-wax-test.tacocrypto.io - atomicmarket check failed. Market assets data success: true, Data length: 0
+Node https://atomic-wax-test.tacocrypto.io is healthy. Atomicassets: true, Atomicmarket: false
+Node https://atomic-wax-test.tacocrypto.io geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://test.wax.api.atomicassets.io
+Node https://test.wax.api.atomicassets.io - Initial API calls successful
+Node https://test.wax.api.atomicassets.io - Checking atomicassets
+Node https://test.wax.api.atomicassets.io - Collections, templates, and assets data retrieved successfully
+Node https://test.wax.api.atomicassets.io - Template ID: 527086, Asset ID: 1099589981893
+Node https://test.wax.api.atomicassets.io - atomicassets check passed
+Node https://test.wax.api.atomicassets.io - Checking atomicmarket
+Node https://test.wax.api.atomicassets.io - atomicmarket check failed. Market assets data success: true, Data length: 0
+Node https://test.wax.api.atomicassets.io is healthy. Atomicassets: true, Atomicmarket: false
+Node https://test.wax.api.atomicassets.io geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://wax-test.blokcrafters.io
+{"level":30,"time":1727874112644,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-b","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874112645,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-b","res":{"statusCode":503},"responseTime":1.1967086791992188,"msg":"request completed"}
+Node https://wax-test.blokcrafters.io - Initial API calls successful
+Node https://wax-test.blokcrafters.io - Checking atomicassets
+Node https://wax-test.blokcrafters.io - Collections, templates, and assets data retrieved successfully
+Node https://wax-test.blokcrafters.io - Template ID: 527086, Asset ID: 1099589981893
+{"level":30,"time":1727874113142,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-c","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874113144,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-c","res":{"statusCode":503},"responseTime":1.7884578704833984,"msg":"request completed"}
+Node https://wax-test.blokcrafters.io - atomicassets check passed
+Node https://wax-test.blokcrafters.io - Checking atomicmarket
+Node https://wax-test.blokcrafters.io - atomicmarket check failed. Market assets data success: true, Data length: 0
+Node https://wax-test.blokcrafters.io is healthy. Atomicassets: true, Atomicmarket: false
+Node https://wax-test.blokcrafters.io geo info: Region: unknown, Country: CA, Timezone: America/Toronto
+Checking Atomic API health for node: https://api.wax-test.liquidstudios.io
+{"level":30,"time":1727874113621,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-d","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874113622,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-d","res":{"statusCode":503},"responseTime":0.7177085876464844,"msg":"request completed"}
+Node https://api.wax-test.liquidstudios.io - Initial API calls successful
+Node https://api.wax-test.liquidstudios.io - Checking atomicassets
+Node https://api.wax-test.liquidstudios.io - Collections, templates, and assets data retrieved successfully
+Node https://api.wax-test.liquidstudios.io - Template ID: 527086, Asset ID: 1099589981893
+Node https://api.wax-test.liquidstudios.io - atomicassets check passed
+Node https://api.wax-test.liquidstudios.io - Checking atomicmarket
+Node https://api.wax-test.liquidstudios.io - atomicmarket check failed. Market assets data success: true, Data length: 0
+Node https://api.wax-test.liquidstudios.io is healthy. Atomicassets: true, Atomicmarket: false
+Node https://api.wax-test.liquidstudios.io geo info: Region: unknown, Country: DE, Timezone: Europe/Berlin
+Checking Atomic API health for node: https://atomic-test.oiac.io
+{"level":30,"time":1727874114038,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-e","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874114041,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-e","res":{"statusCode":503},"responseTime":2.174833297729492,"msg":"request completed"}
+Checking Atomic API health for node: https://test.wax.eosusa.io
+{"level":30,"time":1727874115046,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-f","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874115048,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-f","res":{"statusCode":503},"responseTime":1.6194572448730469,"msg":"request completed"}
+{"level":30,"time":1727874115411,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-g","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874115413,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-g","res":{"statusCode":503},"responseTime":1.6431655883789062,"msg":"request completed"}
+{"level":30,"time":1727874115735,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-h","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874115737,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-h","res":{"statusCode":503},"responseTime":1.5488758087158203,"msg":"request completed"}
+{"level":30,"time":1727874116057,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-i","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874116058,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-i","res":{"statusCode":503},"responseTime":1.0947494506835938,"msg":"request completed"}
+{"level":30,"time":1727874116391,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-j","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874116393,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-j","res":{"statusCode":503},"responseTime":2.3787078857421875,"msg":"request completed"}
+Time until next health check: 410 seconds
+{"level":30,"time":1727874116726,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-k","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874116727,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-k","res":{"statusCode":503},"responseTime":0.9111251831054688,"msg":"request completed"}
+Checking Atomic API health for node: https://testatomic.3dkrender.com
+{"level":30,"time":1727874117064,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-l","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: []
+Filtered nodes list: []
+No healthy hyperion nodes available for mainnet with the specified filters.
+{"level":30,"time":1727874117065,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-l","res":{"statusCode":503},"responseTime":0.6739578247070312,"msg":"request completed"}
+Node https://testatomic.3dkrender.com - Initial API calls successful
+Node https://testatomic.3dkrender.com - Checking atomicassets
+Node https://testatomic.3dkrender.com - Collections, templates, and assets data retrieved successfully
+Node https://testatomic.3dkrender.com - Template ID: 527086, Asset ID: 1099589981893
+Node https://testatomic.3dkrender.com - atomicassets check passed
+Node https://testatomic.3dkrender.com - Checking atomicmarket
+Node https://testatomic.3dkrender.com - atomicmarket check failed. Market assets data success: true, Data length: 0
+Node https://testatomic.3dkrender.com is healthy. Atomicassets: true, Atomicmarket: false
+Node https://testatomic.3dkrender.com geo info: Region: 18, Country: FI, Timezone: Europe/Helsinki
+Checking Atomic API health for node: https://waxtest.defibox.xyz
+Checking Atomic API health for node: https://atomic-wax-testnet.wecan.dev
+Node https://atomic-wax-testnet.wecan.dev - Initial API calls successful
+Node https://atomic-wax-testnet.wecan.dev - Checking atomicassets
+Node https://atomic-wax-testnet.wecan.dev - Collections, templates, and assets data retrieved successfully
+Node https://atomic-wax-testnet.wecan.dev - Template ID: 527086, Asset ID: 1099589981893
+Node https://atomic-wax-testnet.wecan.dev - atomicassets check passed
+Node https://atomic-wax-testnet.wecan.dev - Checking atomicmarket
+Node https://atomic-wax-testnet.wecan.dev - atomicmarket check failed. Market assets data success: true, Data length: 0
+Node https://atomic-wax-testnet.wecan.dev is healthy. Atomicassets: true, Atomicmarket: false
+Node https://atomic-wax-testnet.wecan.dev geo info: Region: unknown, Country: US, Timezone: America/Chicago
+Checking Atomic API health for node: https://testnet.wax.blacklusion.io
+Checking Atomic API health for node: https://wax-test.blokcrafters.io
+Node https://wax-test.blokcrafters.io - Initial API calls successful
+Node https://wax-test.blokcrafters.io - Checking atomicassets
+Node https://wax-test.blokcrafters.io - Collections, templates, and assets data retrieved successfully
+Node https://wax-test.blokcrafters.io - Template ID: 527086, Asset ID: 1099589981893
+Node https://wax-test.blokcrafters.io - atomicassets check passed
+Node https://wax-test.blokcrafters.io - Checking atomicmarket
+Node https://wax-test.blokcrafters.io - atomicmarket check failed. Market assets data success: true, Data length: 0
+Node https://wax-test.blokcrafters.io is healthy. Atomicassets: true, Atomicmarket: false
+Node https://wax-test.blokcrafters.io geo info: Region: unknown, Country: CA, Timezone: America/Toronto
+Checking Atomic API health for node: https://waxtest-aa.eosdac.io
+Node https://waxtest-aa.eosdac.io - Initial API calls successful
+Node https://waxtest-aa.eosdac.io - Checking atomicassets
+Node https://waxtest-aa.eosdac.io - Collections, templates, and assets data retrieved successfully
+Node https://waxtest-aa.eosdac.io - Template ID: 527086, Asset ID: 1099589981893
+Node https://waxtest-aa.eosdac.io - atomicassets check passed
+Node https://waxtest-aa.eosdac.io - Checking atomicmarket
+Node https://waxtest-aa.eosdac.io - atomicmarket check failed. Market assets data success: true, Data length: 0
+Node https://waxtest-aa.eosdac.io is healthy. Atomicassets: true, Atomicmarket: false
+Node https://waxtest-aa.eosdac.io geo info: Region: unknown, Country: US, Timezone: America/Chicago
+{"level":30,"time":1727874121945,"pid":85425,"hostname":"Charless-MacBook-Pro.local","msg":"Health check completed. Healthy Hyperion nodes: mainnet 23, testnet 30"}
+Updated healthyNodes: {
+  "hyperion": {
+    "mainnet": [
+      {
+        "url": "https://hyperion.waxdaobp.io",
+        "historyfull": false,
+        "streaming": {
+          "enable": false,
+          "traces": false,
+          "deltas": false
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax-hyperion.alcor.exchange",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://hyperion.wax.detroitledger.tech",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "VA",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      {
+        "url": "https://wax.eosdublin.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://wax.eosrio.io",
+        "historyfull": false,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "SP",
+        "country": "BR",
+        "timezone": "America/Sao_Paulo"
+      },
+      {
+        "url": "https://wax.eosphere.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "CA",
+        "timezone": "America/Toronto"
+      },
+      {
+        "url": "https://hyperion-wax.a-dex.xyz",
+        "historyfull": false,
+        "streaming": {
+          "enable": false,
+          "traces": false,
+          "deltas": false
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax.qaraqol.com",
+        "historyfull": true,
+        "streaming": {
+          "enable": false,
+          "traces": false,
+          "deltas": false
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://hyperion7.sentnl.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      },
+      {
+        "url": "https://api-wax.tacocrypto.io/hyperion",
+        "historyfull": false,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax.blokcrafters.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "CA",
+        "timezone": "America/Toronto"
+      },
+      {
+        "url": "https://waxapi.ledgerwise.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://hyperion.oiac.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      },
+      {
+        "url": "https://wax.hivebp.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": false,
+          "traces": false,
+          "deltas": false
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax.eosusa.io",
+        "historyfull": false,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "SC",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      {
+        "url": "https://api.wax.greeneosio.com",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://wax.defibox.xyz",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://hyperion-wax-mainnet.wecan.dev",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://api.wax.alohaeos.com",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "VA",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      {
+        "url": "https://wax.blokcrafters.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "QC",
+        "country": "CA",
+        "timezone": "America/Toronto"
+      },
+      {
+        "url": "https://wax-api.eosiomadrid.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax-history.eosdac.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://api-wax.eosarabia.net",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      }
+    ],
+    "testnet": [
+      {
+        "url": "https://waxtest-hyperion.alcor.exchange",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://hyperion.testnet.wax.detroitledger.tech",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "MI",
+        "country": "US",
+        "timezone": "America/Detroit"
+      },
+      {
+        "url": "https://wax.testnet.eosdublin.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://testnet.wax.eosrio.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "RJ",
+        "country": "BR",
+        "timezone": "America/Sao_Paulo"
+      },
+      {
+        "url": "https://wax-testnet.eosphere.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "VIC",
+        "country": "AU",
+        "timezone": "Australia/Melbourne"
+      },
+      {
+        "url": "https://hyperion-wax-testnet.a-dex.xyz",
+        "historyfull": true,
+        "streaming": {
+          "enable": false,
+          "traces": false,
+          "deltas": false
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://waxtest.qaraqol.com",
+        "historyfull": true,
+        "streaming": {
+          "enable": false,
+          "traces": false,
+          "deltas": false
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://hyperion-test.sentnl.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      },
+      {
+        "url": "https://wax-testnet-hyperion.neftyblocks.com",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax-test.tacocrypto.io/hyperion",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax-test.blokcrafters.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "CA",
+        "timezone": "America/Toronto"
+      },
+      {
+        "url": "https://waxtestnet.ledgerwise.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": false,
+          "traces": false,
+          "deltas": false
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://api.wax-test.liquidstudios.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": false,
+          "traces": false,
+          "deltas": false
+        },
+        "region": "unknown",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      },
+      {
+        "url": "https://hyperion-test.oiac.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      },
+      {
+        "url": "https://testnet.waxsweden.org",
+        "historyfull": true,
+        "streaming": {
+          "enable": false,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "BY",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      },
+      {
+        "url": "https://test.wax.eosusa.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "SC",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      {
+        "url": "https://api.waxtest.waxgalaxy.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://tapiwax.3dkrender.com",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://waxtest.defibox.xyz",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://wax-testnet.cryptolions.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "HE",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      },
+      {
+        "url": "https://api.wax-test.bountyblok.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": false,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "QC",
+        "country": "CA",
+        "timezone": "America/Toronto"
+      },
+      {
+        "url": "https://hyperion-wax-testnet.wecan.dev",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://waxtest.eu.eosamsterdam.net",
+        "historyfull": false,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      },
+      {
+        "url": "https://testnet.wax.blacklusion.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      },
+      {
+        "url": "https://wax-test.blokcrafters.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "CA",
+        "timezone": "America/Toronto"
+      },
+      {
+        "url": "https://wax-testnet-hyperion.eosiomadrid.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": false,
+          "traces": false,
+          "deltas": false
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://api-waxtest.eosauthority.com",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://waxtest.eosdac.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax-testnet.dapplica.io",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "SN",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      },
+      {
+        "url": "https://api-testnet-wax.eosarabia.net",
+        "historyfull": true,
+        "streaming": {
+          "enable": true,
+          "traces": true,
+          "deltas": true
+        },
+        "region": "NI",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      }
+    ]
+  },
+  "atomic": {
+    "mainnet": [
+      {
+        "url": "https://aa.waxdaobp.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax-atomic.alcor.exchange",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://atomic.wax.eosrio.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "RJ",
+        "country": "BR",
+        "timezone": "America/Sao_Paulo"
+      },
+      {
+        "url": "https://wax-atomic-api.eosphere.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "QC",
+        "country": "CA",
+        "timezone": "America/Toronto"
+      },
+      {
+        "url": "https://atomic-wax.a-dex.xyz",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://atomic-wax.qaraqol.com",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://atomic.sentnl.io/",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "unknown",
+        "country": "FR",
+        "timezone": "Europe/Paris"
+      },
+      {
+        "url": "https://atomic-wax.tacocrypto.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax.api.atomicassets.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://atomic.oiac.io/",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "unknown",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      },
+      {
+        "url": "https://atomic.hivebp.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax.eosusa.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "SC",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      {
+        "url": "https://api.atomic.greeneosio.com",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://atomic.3dkrender.com",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://atomic-api.wax.cryptolions.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "HE",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      },
+      {
+        "url": "https://atomic-wax-mainnet.wecan.dev",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax-aa.eu.eosamsterdam.net",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://wax-atomic.eosiomadrid.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax-aa.eosdac.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://aa.dapplica.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://api-wax-aa.eosarabia.net",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": true
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      }
+    ],
+    "testnet": [
+      {
+        "url": "https://atomic.testnet.wax.detroitledger.tech",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": false
+        },
+        "region": "MI",
+        "country": "US",
+        "timezone": "America/Detroit"
+      },
+      {
+        "url": "https://atomic-waxtest.qaraqol.com",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": false
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://aa-testnet-public.neftyblocks.com",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": false
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://atomic-wax-test.tacocrypto.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": false
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://test.wax.api.atomicassets.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": false
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax-test.blokcrafters.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": false
+        },
+        "region": "unknown",
+        "country": "CA",
+        "timezone": "America/Toronto"
+      },
+      {
+        "url": "https://api.wax-test.liquidstudios.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": false
+        },
+        "region": "unknown",
+        "country": "DE",
+        "timezone": "Europe/Berlin"
+      },
+      {
+        "url": "https://testatomic.3dkrender.com",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": false
+        },
+        "region": "18",
+        "country": "FI",
+        "timezone": "Europe/Helsinki"
+      },
+      {
+        "url": "https://atomic-wax-testnet.wecan.dev",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": false
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      {
+        "url": "https://wax-test.blokcrafters.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": false
+        },
+        "region": "unknown",
+        "country": "CA",
+        "timezone": "America/Toronto"
+      },
+      {
+        "url": "https://waxtest-aa.eosdac.io",
+        "atomic": {
+          "atomicassets": true,
+          "atomicmarket": false
+        },
+        "region": "unknown",
+        "country": "US",
+        "timezone": "America/Chicago"
+      }
+    ]
+  }
+}
+Next health check scheduled for: 2024-10-02T13:10:41.946Z
+{"level":30,"time":1727874121945,"pid":85425,"hostname":"Charless-MacBook-Pro.local","msg":"Healthy Atomic nodes: mainnet 21, testnet 11"}
+Time until next health check: 516 seconds
+{"level":30,"time":1727874131520,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-m","req":{"method":"GET","url":"/nodes?type=hyperion","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'mainnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion mainnet: [
+  {
+    url: 'https://hyperion.waxdaobp.io',
+    historyfull: false,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-hyperion.alcor.exchange',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://hyperion.wax.detroitledger.tech',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'VA',
+    country: 'US',
+    timezone: 'America/New_York'
+  },
+  {
+    url: 'https://wax.eosdublin.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://wax.eosrio.io',
+    historyfull: false,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SP',
+    country: 'BR',
+    timezone: 'America/Sao_Paulo'
+  },
+  {
+    url: 'https://wax.eosphere.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://hyperion-wax.a-dex.xyz',
+    historyfull: false,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax.qaraqol.com',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://hyperion7.sentnl.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api-wax.tacocrypto.io/hyperion',
+    historyfull: false,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://waxapi.ledgerwise.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://hyperion.oiac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax.hivebp.io',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax.eosusa.io',
+    historyfull: false,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SC',
+    country: 'US',
+    timezone: 'America/New_York'
+  },
+  {
+    url: 'https://api.wax.greeneosio.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://wax.defibox.xyz',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://hyperion-wax-mainnet.wecan.dev',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://api.wax.alohaeos.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'VA',
+    country: 'US',
+    timezone: 'America/New_York'
+  },
+  {
+    url: 'https://wax.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'QC',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://wax-api.eosiomadrid.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-history.eosdac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://api-wax.eosarabia.net',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  }
+]
+Filtered nodes list: [
+  {
+    url: 'https://wax-hyperion.alcor.exchange',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://hyperion.wax.detroitledger.tech',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'VA',
+    country: 'US',
+    timezone: 'America/New_York'
+  },
+  {
+    url: 'https://wax.eosdublin.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://wax.eosphere.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://hyperion7.sentnl.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://waxapi.ledgerwise.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://hyperion.oiac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api.wax.greeneosio.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://wax.defibox.xyz',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://hyperion-wax-mainnet.wecan.dev',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://api.wax.alohaeos.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'VA',
+    country: 'US',
+    timezone: 'America/New_York'
+  },
+  {
+    url: 'https://wax.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'QC',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://wax-api.eosiomadrid.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-history.eosdac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://api-wax.eosarabia.net',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  }
+]
+Responding with: [
+  {
+    url: 'https://wax-hyperion.alcor.exchange',
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  },
+  {
+    url: 'https://hyperion.wax.detroitledger.tech',
+    region: 'VA',
+    country: 'US',
+    timezone: 'America/New_York',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  },
+  {
+    url: 'https://wax.eosdublin.io',
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  }
+]
+{"level":30,"time":1727874131525,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-m","res":{"statusCode":200},"responseTime":4.37266731262207,"msg":"request completed"}
+{"level":30,"time":1727874135580,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-n","req":{"method":"GET","url":"/nodes?type=hyperion&network=testnet","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'testnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion testnet: [
+  {
+    url: 'https://waxtest-hyperion.alcor.exchange',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://hyperion.testnet.wax.detroitledger.tech',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit'
+  },
+  {
+    url: 'https://wax.testnet.eosdublin.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://testnet.wax.eosrio.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'RJ',
+    country: 'BR',
+    timezone: 'America/Sao_Paulo'
+  },
+  {
+    url: 'https://wax-testnet.eosphere.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'VIC',
+    country: 'AU',
+    timezone: 'Australia/Melbourne'
+  },
+  {
+    url: 'https://hyperion-wax-testnet.a-dex.xyz',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.qaraqol.com',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://hyperion-test.sentnl.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-testnet-hyperion.neftyblocks.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.tacocrypto.io/hyperion',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://waxtestnet.ledgerwise.io',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://api.wax-test.liquidstudios.io',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://hyperion-test.oiac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://testnet.waxsweden.org',
+    historyfull: true,
+    streaming: { enable: false, traces: true, deltas: true },
+    region: 'BY',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://test.wax.eosusa.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SC',
+    country: 'US',
+    timezone: 'America/New_York'
+  },
+  {
+    url: 'https://api.waxtest.waxgalaxy.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://tapiwax.3dkrender.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://waxtest.defibox.xyz',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://wax-testnet.cryptolions.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'HE',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api.wax-test.bountyblok.io',
+    historyfull: true,
+    streaming: { enable: false, traces: true, deltas: true },
+    region: 'QC',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://hyperion-wax-testnet.wecan.dev',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.eu.eosamsterdam.net',
+    historyfull: false,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://testnet.wax.blacklusion.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://wax-testnet-hyperion.eosiomadrid.io',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://api-waxtest.eosauthority.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.eosdac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-testnet.dapplica.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SN',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api-testnet-wax.eosarabia.net',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'NI',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  }
+]
+Filtered nodes list: [
+  {
+    url: 'https://waxtest-hyperion.alcor.exchange',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://hyperion.testnet.wax.detroitledger.tech',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit'
+  },
+  {
+    url: 'https://wax.testnet.eosdublin.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://testnet.wax.eosrio.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'RJ',
+    country: 'BR',
+    timezone: 'America/Sao_Paulo'
+  },
+  {
+    url: 'https://wax-testnet.eosphere.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'VIC',
+    country: 'AU',
+    timezone: 'Australia/Melbourne'
+  },
+  {
+    url: 'https://hyperion-test.sentnl.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-testnet-hyperion.neftyblocks.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.tacocrypto.io/hyperion',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://hyperion-test.oiac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://test.wax.eosusa.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SC',
+    country: 'US',
+    timezone: 'America/New_York'
+  },
+  {
+    url: 'https://api.waxtest.waxgalaxy.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://tapiwax.3dkrender.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://waxtest.defibox.xyz',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://wax-testnet.cryptolions.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'HE',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://hyperion-wax-testnet.wecan.dev',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://testnet.wax.blacklusion.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://api-waxtest.eosauthority.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.eosdac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-testnet.dapplica.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SN',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api-testnet-wax.eosarabia.net',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'NI',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  }
+]
+Responding with: [
+  {
+    url: 'https://waxtest-hyperion.alcor.exchange',
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  },
+  {
+    url: 'https://hyperion.testnet.wax.detroitledger.tech',
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  },
+  {
+    url: 'https://wax.testnet.eosdublin.io',
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  }
+]
+{"level":30,"time":1727874135582,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-n","res":{"statusCode":200},"responseTime":1.8690414428710938,"msg":"request completed"}
+Time until next health check: 506 seconds
+Time until next health check: 496 seconds
+{"level":30,"time":1727874149743,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-o","req":{"method":"GET","url":"/nodes?type=atomic&network=testnet","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'atomic',
+  network: 'testnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for atomic testnet: [
+  {
+    url: 'https://atomic.testnet.wax.detroitledger.tech',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit'
+  },
+  {
+    url: 'https://atomic-waxtest.qaraqol.com',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://aa-testnet-public.neftyblocks.com',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://atomic-wax-test.tacocrypto.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://test.wax.api.atomicassets.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://api.wax-test.liquidstudios.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://testatomic.3dkrender.com',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://atomic-wax-testnet.wecan.dev',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://waxtest-aa.eosdac.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  }
+]
+Filtered nodes list: []
+No healthy atomic nodes available for testnet with the specified filters.
+{"level":30,"time":1727874149744,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-o","res":{"statusCode":503},"responseTime":1.2562904357910156,"msg":"request completed"}
+{"level":30,"time":1727874151494,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-p","req":{"method":"GET","url":"/nodes?type=atomic&network=testnet","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'atomic',
+  network: 'testnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for atomic testnet: [
+  {
+    url: 'https://atomic.testnet.wax.detroitledger.tech',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit'
+  },
+  {
+    url: 'https://atomic-waxtest.qaraqol.com',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://aa-testnet-public.neftyblocks.com',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://atomic-wax-test.tacocrypto.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://test.wax.api.atomicassets.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://api.wax-test.liquidstudios.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://testatomic.3dkrender.com',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://atomic-wax-testnet.wecan.dev',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://waxtest-aa.eosdac.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  }
+]
+Filtered nodes list: []
+No healthy atomic nodes available for testnet with the specified filters.
+{"level":30,"time":1727874151497,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-p","res":{"statusCode":503},"responseTime":3.0031261444091797,"msg":"request completed"}
+{"level":30,"time":1727874153818,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-q","req":{"method":"GET","url":"/nodes?type=atomic&network=testnet","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'atomic',
+  network: 'testnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for atomic testnet: [
+  {
+    url: 'https://atomic.testnet.wax.detroitledger.tech',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit'
+  },
+  {
+    url: 'https://atomic-waxtest.qaraqol.com',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://aa-testnet-public.neftyblocks.com',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://atomic-wax-test.tacocrypto.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://test.wax.api.atomicassets.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://api.wax-test.liquidstudios.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://testatomic.3dkrender.com',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://atomic-wax-testnet.wecan.dev',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://waxtest-aa.eosdac.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  }
+]
+Filtered nodes list: []
+No healthy atomic nodes available for testnet with the specified filters.
+{"level":30,"time":1727874153819,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-q","res":{"statusCode":503},"responseTime":0.8347911834716797,"msg":"request completed"}
+Time until next health check: 486 seconds
+{"level":30,"time":1727874160132,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-r","req":{"method":"GET","url":"/nodes?type=hyperion&network=testnet","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'testnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion testnet: [
+  {
+    url: 'https://waxtest-hyperion.alcor.exchange',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://hyperion.testnet.wax.detroitledger.tech',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit'
+  },
+  {
+    url: 'https://wax.testnet.eosdublin.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://testnet.wax.eosrio.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'RJ',
+    country: 'BR',
+    timezone: 'America/Sao_Paulo'
+  },
+  {
+    url: 'https://wax-testnet.eosphere.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'VIC',
+    country: 'AU',
+    timezone: 'Australia/Melbourne'
+  },
+  {
+    url: 'https://hyperion-wax-testnet.a-dex.xyz',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.qaraqol.com',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://hyperion-test.sentnl.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-testnet-hyperion.neftyblocks.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.tacocrypto.io/hyperion',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://waxtestnet.ledgerwise.io',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://api.wax-test.liquidstudios.io',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://hyperion-test.oiac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://testnet.waxsweden.org',
+    historyfull: true,
+    streaming: { enable: false, traces: true, deltas: true },
+    region: 'BY',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://test.wax.eosusa.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SC',
+    country: 'US',
+    timezone: 'America/New_York'
+  },
+  {
+    url: 'https://api.waxtest.waxgalaxy.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://tapiwax.3dkrender.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://waxtest.defibox.xyz',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://wax-testnet.cryptolions.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'HE',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api.wax-test.bountyblok.io',
+    historyfull: true,
+    streaming: { enable: false, traces: true, deltas: true },
+    region: 'QC',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://hyperion-wax-testnet.wecan.dev',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.eu.eosamsterdam.net',
+    historyfull: false,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://testnet.wax.blacklusion.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://wax-testnet-hyperion.eosiomadrid.io',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://api-waxtest.eosauthority.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.eosdac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-testnet.dapplica.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SN',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api-testnet-wax.eosarabia.net',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'NI',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  }
+]
+Filtered nodes list: [
+  {
+    url: 'https://waxtest-hyperion.alcor.exchange',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://hyperion.testnet.wax.detroitledger.tech',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit'
+  },
+  {
+    url: 'https://wax.testnet.eosdublin.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://testnet.wax.eosrio.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'RJ',
+    country: 'BR',
+    timezone: 'America/Sao_Paulo'
+  },
+  {
+    url: 'https://wax-testnet.eosphere.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'VIC',
+    country: 'AU',
+    timezone: 'Australia/Melbourne'
+  },
+  {
+    url: 'https://hyperion-test.sentnl.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-testnet-hyperion.neftyblocks.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.tacocrypto.io/hyperion',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://hyperion-test.oiac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://test.wax.eosusa.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SC',
+    country: 'US',
+    timezone: 'America/New_York'
+  },
+  {
+    url: 'https://api.waxtest.waxgalaxy.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://tapiwax.3dkrender.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://waxtest.defibox.xyz',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://wax-testnet.cryptolions.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'HE',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://hyperion-wax-testnet.wecan.dev',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://testnet.wax.blacklusion.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://api-waxtest.eosauthority.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.eosdac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-testnet.dapplica.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SN',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api-testnet-wax.eosarabia.net',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'NI',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  }
+]
+Responding with: [
+  {
+    url: 'https://waxtest-hyperion.alcor.exchange',
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  },
+  {
+    url: 'https://hyperion.testnet.wax.detroitledger.tech',
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  },
+  {
+    url: 'https://wax.testnet.eosdublin.io',
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  }
+]
+{"level":30,"time":1727874160138,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-r","res":{"statusCode":200},"responseTime":4.940874099731445,"msg":"request completed"}
+{"level":30,"time":1727874165413,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-s","req":{"method":"GET","url":"/nodes?type=hyperion&network=testnet&count=3","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'testnet',
+  count: '3',
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion testnet: [
+  {
+    url: 'https://waxtest-hyperion.alcor.exchange',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://hyperion.testnet.wax.detroitledger.tech',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit'
+  },
+  {
+    url: 'https://wax.testnet.eosdublin.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://testnet.wax.eosrio.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'RJ',
+    country: 'BR',
+    timezone: 'America/Sao_Paulo'
+  },
+  {
+    url: 'https://wax-testnet.eosphere.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'VIC',
+    country: 'AU',
+    timezone: 'Australia/Melbourne'
+  },
+  {
+    url: 'https://hyperion-wax-testnet.a-dex.xyz',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.qaraqol.com',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://hyperion-test.sentnl.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-testnet-hyperion.neftyblocks.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.tacocrypto.io/hyperion',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://waxtestnet.ledgerwise.io',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://api.wax-test.liquidstudios.io',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://hyperion-test.oiac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://testnet.waxsweden.org',
+    historyfull: true,
+    streaming: { enable: false, traces: true, deltas: true },
+    region: 'BY',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://test.wax.eosusa.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SC',
+    country: 'US',
+    timezone: 'America/New_York'
+  },
+  {
+    url: 'https://api.waxtest.waxgalaxy.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://tapiwax.3dkrender.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://waxtest.defibox.xyz',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://wax-testnet.cryptolions.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'HE',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api.wax-test.bountyblok.io',
+    historyfull: true,
+    streaming: { enable: false, traces: true, deltas: true },
+    region: 'QC',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://hyperion-wax-testnet.wecan.dev',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.eu.eosamsterdam.net',
+    historyfull: false,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://testnet.wax.blacklusion.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://wax-testnet-hyperion.eosiomadrid.io',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://api-waxtest.eosauthority.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.eosdac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-testnet.dapplica.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SN',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api-testnet-wax.eosarabia.net',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'NI',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  }
+]
+Filtered nodes list: [
+  {
+    url: 'https://waxtest-hyperion.alcor.exchange',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://hyperion.testnet.wax.detroitledger.tech',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit'
+  },
+  {
+    url: 'https://wax.testnet.eosdublin.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://testnet.wax.eosrio.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'RJ',
+    country: 'BR',
+    timezone: 'America/Sao_Paulo'
+  },
+  {
+    url: 'https://wax-testnet.eosphere.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'VIC',
+    country: 'AU',
+    timezone: 'Australia/Melbourne'
+  },
+  {
+    url: 'https://hyperion-test.sentnl.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-testnet-hyperion.neftyblocks.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.tacocrypto.io/hyperion',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://hyperion-test.oiac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://test.wax.eosusa.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SC',
+    country: 'US',
+    timezone: 'America/New_York'
+  },
+  {
+    url: 'https://api.waxtest.waxgalaxy.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://tapiwax.3dkrender.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://waxtest.defibox.xyz',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://wax-testnet.cryptolions.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'HE',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://hyperion-wax-testnet.wecan.dev',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://testnet.wax.blacklusion.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://api-waxtest.eosauthority.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.eosdac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-testnet.dapplica.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SN',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api-testnet-wax.eosarabia.net',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'NI',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  }
+]
+Responding with: [
+  {
+    url: 'https://waxtest-hyperion.alcor.exchange',
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  },
+  {
+    url: 'https://hyperion.testnet.wax.detroitledger.tech',
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  },
+  {
+    url: 'https://wax.testnet.eosdublin.io',
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  }
+]
+{"level":30,"time":1727874165415,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-s","res":{"statusCode":200},"responseTime":2.707792282104492,"msg":"request completed"}
+Time until next health check: 476 seconds
+{"level":30,"time":1727874168209,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-t","req":{"method":"GET","url":"/nodes?type=hyperion&network=testnet&count=5","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'hyperion',
+  network: 'testnet',
+  count: '5',
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for hyperion testnet: [
+  {
+    url: 'https://waxtest-hyperion.alcor.exchange',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://hyperion.testnet.wax.detroitledger.tech',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit'
+  },
+  {
+    url: 'https://wax.testnet.eosdublin.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://testnet.wax.eosrio.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'RJ',
+    country: 'BR',
+    timezone: 'America/Sao_Paulo'
+  },
+  {
+    url: 'https://wax-testnet.eosphere.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'VIC',
+    country: 'AU',
+    timezone: 'Australia/Melbourne'
+  },
+  {
+    url: 'https://hyperion-wax-testnet.a-dex.xyz',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.qaraqol.com',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://hyperion-test.sentnl.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-testnet-hyperion.neftyblocks.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.tacocrypto.io/hyperion',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://waxtestnet.ledgerwise.io',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://api.wax-test.liquidstudios.io',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://hyperion-test.oiac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://testnet.waxsweden.org',
+    historyfull: true,
+    streaming: { enable: false, traces: true, deltas: true },
+    region: 'BY',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://test.wax.eosusa.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SC',
+    country: 'US',
+    timezone: 'America/New_York'
+  },
+  {
+    url: 'https://api.waxtest.waxgalaxy.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://tapiwax.3dkrender.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://waxtest.defibox.xyz',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://wax-testnet.cryptolions.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'HE',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api.wax-test.bountyblok.io',
+    historyfull: true,
+    streaming: { enable: false, traces: true, deltas: true },
+    region: 'QC',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://hyperion-wax-testnet.wecan.dev',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.eu.eosamsterdam.net',
+    historyfull: false,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://testnet.wax.blacklusion.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://wax-testnet-hyperion.eosiomadrid.io',
+    historyfull: true,
+    streaming: { enable: false, traces: false, deltas: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://api-waxtest.eosauthority.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.eosdac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-testnet.dapplica.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SN',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api-testnet-wax.eosarabia.net',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'NI',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  }
+]
+Filtered nodes list: [
+  {
+    url: 'https://waxtest-hyperion.alcor.exchange',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://hyperion.testnet.wax.detroitledger.tech',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit'
+  },
+  {
+    url: 'https://wax.testnet.eosdublin.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://testnet.wax.eosrio.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'RJ',
+    country: 'BR',
+    timezone: 'America/Sao_Paulo'
+  },
+  {
+    url: 'https://wax-testnet.eosphere.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'VIC',
+    country: 'AU',
+    timezone: 'Australia/Melbourne'
+  },
+  {
+    url: 'https://hyperion-test.sentnl.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-testnet-hyperion.neftyblocks.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.tacocrypto.io/hyperion',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://hyperion-test.oiac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://test.wax.eosusa.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SC',
+    country: 'US',
+    timezone: 'America/New_York'
+  },
+  {
+    url: 'https://api.waxtest.waxgalaxy.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://tapiwax.3dkrender.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://waxtest.defibox.xyz',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://wax-testnet.cryptolions.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'HE',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://hyperion-wax-testnet.wecan.dev',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://testnet.wax.blacklusion.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://api-waxtest.eosauthority.com',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://waxtest.eosdac.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-testnet.dapplica.io',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'SN',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://api-testnet-wax.eosarabia.net',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    region: 'NI',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  }
+]
+Responding with: [
+  {
+    url: 'https://waxtest-hyperion.alcor.exchange',
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  },
+  {
+    url: 'https://hyperion.testnet.wax.detroitledger.tech',
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  },
+  {
+    url: 'https://wax.testnet.eosdublin.io',
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  },
+  {
+    url: 'https://testnet.wax.eosrio.io',
+    region: 'RJ',
+    country: 'BR',
+    timezone: 'America/Sao_Paulo',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  },
+  {
+    url: 'https://wax-testnet.eosphere.io',
+    region: 'VIC',
+    country: 'AU',
+    timezone: 'Australia/Melbourne',
+    historyfull: true,
+    streaming: { enable: true, traces: true, deltas: true },
+    atomic: undefined
+  }
+]
+{"level":30,"time":1727874168212,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-t","res":{"statusCode":200},"responseTime":2.947957992553711,"msg":"request completed"}
+Time until next health check: 466 seconds
+{"level":30,"time":1727874177297,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-u","req":{"method":"GET","url":"/nodes?type=atomic&network=testnet","host":"localhost:3000","remoteAddress":"127.0.0.1","remotePort":52108},"msg":"incoming request"}
+Request received for /nodes
+Query parameters: {
+  type: 'atomic',
+  network: 'testnet',
+  count: 3,
+  historyfull: 'true',
+  streaming: 'true',
+  atomicassets: 'true',
+  atomicmarket: 'true'
+}
+User geo: { region: '', country: '' }
+Initial nodes list for atomic testnet: [
+  {
+    url: 'https://atomic.testnet.wax.detroitledger.tech',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'MI',
+    country: 'US',
+    timezone: 'America/Detroit'
+  },
+  {
+    url: 'https://atomic-waxtest.qaraqol.com',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://aa-testnet-public.neftyblocks.com',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://atomic-wax-test.tacocrypto.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://test.wax.api.atomicassets.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://api.wax-test.liquidstudios.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'DE',
+    timezone: 'Europe/Berlin'
+  },
+  {
+    url: 'https://testatomic.3dkrender.com',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: '18',
+    country: 'FI',
+    timezone: 'Europe/Helsinki'
+  },
+  {
+    url: 'https://atomic-wax-testnet.wecan.dev',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  },
+  {
+    url: 'https://wax-test.blokcrafters.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'CA',
+    timezone: 'America/Toronto'
+  },
+  {
+    url: 'https://waxtest-aa.eosdac.io',
+    atomic: { atomicassets: true, atomicmarket: false },
+    region: 'unknown',
+    country: 'US',
+    timezone: 'America/Chicago'
+  }
+]
+Filtered nodes list: []
+No healthy atomic nodes available for testnet with the specified filters.
+{"level":30,"time":1727874177298,"pid":85425,"hostname":"Charless-MacBook-Pro.local","reqId":"req-u","res":{"statusCode":503},"responseTime":1.3900012969970703,"msg":"request completed"}
