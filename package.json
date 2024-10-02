@@ -4,5 +4,9 @@
     "fastify": "^5.0.0",
     "geoip-lite": "^1.4.10",
     "ky": "^1.7.2"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
   }
 }
