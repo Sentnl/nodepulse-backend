@@ -2,12 +2,14 @@ import Fastify from 'fastify';
 import ky from 'ky';
 import dns from 'dns/promises';
 import geoip from 'geoip-lite';
+import { checkHyperionHealth } from './nodes/hyperion.js';
+import { checkAtomicHealth } from './nodes/atomic.js';
 
 const fastify = Fastify({ logger: true });
 
 const PORT = process.env.PORT || 3000;
 const HEALTH_CHECK_INTERVAL = process.env.HEALTH_CHECK_INTERVAL || 520000; // Default 520 seconds
-const TIMEOUT_DURATION = process.env.TIMEOUT_DURATION || 5000;
+const TIMEOUT_DURATION = process.env.TIMEOUT_DURATION || 10000;
 let nextHealthCheckTime = Date.now() + HEALTH_CHECK_INTERVAL;
 const NODE_LIST_REFRESH_INTERVAL = 24 * 60 * 60 * 1000; // 24 hours
 
@@ -100,151 +102,6 @@ const fetchLatestHeadBlock = async (nodes) => {
   }
 };
 
-// Hyperion health check function
-const checkHyperionHealth = async (node, latestHeadBlock) => {
-  try {
-    console.log(`Checking Hyperion health for node: ${node.url}`);
-
-    const [actionsResponse, healthResponse] = await Promise.all([
-      ky.get(`${node.url}/v2/history/get_actions?limit=1`, { timeout: TIMEOUT_DURATION }).json(),
-      ky.get(`${node.url}/v2/health`, { timeout: TIMEOUT_DURATION }).json()
-    ]);
-
-    const actionsData = actionsResponse;
-    const healthData = healthResponse;
-
-    // Ensure last_indexed_block_time is in UTC format
-    const lastIndexedBlockTimeStr = actionsData.last_indexed_block_time;
-    const lastIndexedTime = new Date(lastIndexedBlockTimeStr + 'Z').getTime();
-
-  
-
-    const currentTime = Date.now(); // Current time in UTC milliseconds
-
-    // Log the time values for debugging
-    //console.log(`Node ${node.url} - Last Indexed Block Time (UTC): ${new Date(lastIndexedTime).toISOString()}`);
-    //console.log(`Current Time (UTC): ${new Date(currentTime).toISOString()}`);
-
-    // Calculate the time difference in seconds
-    const timeDifference = (currentTime - lastIndexedTime) / 1000; // Convert milliseconds to seconds
-    //console.log(`Time difference for node ${node.url}: ${timeDifference} seconds`);
-
-    if (timeDifference > 120) {
-      console.log(`Node ${node.url} failed due to time difference greater than 120 seconds.`);
-      return false;
-    }
-
-    
-
-    // Check if all services are OK and missing_blocks is 0
-    const allServicesOK = healthData.health.every(service => service.status === 'OK');
-    const missingBlocks = healthData.health.find(service => service.service === 'Elasticsearch')?.service_data.missing_blocks || 0;
-    //console.log(`All services OK for node ${node.url}: ${allServicesOK}, Missing blocks: ${missingBlocks}`);
-
-    if (allServicesOK && missingBlocks === 0) {
-      // Extract streaming features
-      const streamingFeatures = healthData.features?.streaming || {};
-      node.streaming = {
-        enable: streamingFeatures.enable || false,
-        traces: streamingFeatures.traces || false,
-        deltas: streamingFeatures.deltas || false
-      };
-
-      // Perform geo IP lookup
-      const nodeHostname = new URL(node.url).hostname;
-      try {
-        const nodeIp = await dns.lookup(nodeHostname);
-        const geo = geoip.lookup(nodeIp.address) || {};
-        node.region = geo.region || 'unknown';
-        node.country = geo.country || 'unknown';
-        node.timezone = geo.timezone || 'unknown';
-        console.log(`Node ${node.url} is healthy. Region: ${node.region}, Country: ${node.country}`);
-      } catch (dnsError) {
-        console.error(`Failed to perform DNS lookup for ${nodeHostname}:`, dnsError.message);
-        node.region = 'unknown';
-        node.country = 'unknown';
-        node.timezone = 'unknown';
-      }
-      return true;
-    }
-
-    console.log(`Node ${node.url} is healthy.`);
-    return true;
-  } catch (error) {
-    console.error(`Failed to check health of Hyperion node ${node.url}:`, error.message);
-    return false;
-  }
-};
-
-// Atomic API health check function
-const checkAtomicHealth = async (node) => {
-  try {
-    console.log(`Checking Atomic API health for node: ${node.url}`);
-
-    const [collectionsResponse, templatesResponse, assetsResponse, marketAssetsResponse] = await Promise.all([
-      ky.get(`${node.url}/atomicassets/v1/collections/kogsofficial`, { timeout: TIMEOUT_DURATION }).json(),
-      ky.get(`${node.url}/atomicassets/v1/templates?collection_name=kogsofficial&has_assets=true&page=1&limit=1&order=desc&sort=created`, { timeout: TIMEOUT_DURATION }).json(),
-      ky.get(`${node.url}/atomicassets/v1/assets?page=1&limit=1&order=desc&sort=asset_id`, { timeout: TIMEOUT_DURATION }).json(),
-      ky.get(`${node.url}/atomicmarket/v1/assets?owner=sentnlagents&limit=1`, { timeout: TIMEOUT_DURATION }).json()
-    ]);
-
-    const collectionsData = collectionsResponse;
-    const templatesData = templatesResponse;
-    const assetsData = assetsResponse;
-    const marketAssetsData = marketAssetsResponse;
-
-    node.atomic = {
-      atomicassets: false,
-      atomicmarket: false
-    };
-
-    // Check atomicassets
-    if (collectionsData.success && templatesData.success && assetsData.success) {
-      const templateId = templatesData.data[0]?.template_id;
-      const assetId = assetsData.data[0]?.asset_id;
-
-      if (templateId && assetId) {
-        const [templateResponse, assetResponse] = await Promise.all([
-          ky.get(`${node.url}/atomicassets/v1/templates/kogsofficial/${templateId}`, { timeout: TIMEOUT_DURATION }).json(),
-          ky.get(`${node.url}/atomicassets/v1/assets/${assetId}`, { timeout: TIMEOUT_DURATION }).json()
-        ]);
-
-        if (templateResponse.success && assetResponse.success) {
-          node.atomic.atomicassets = true;
-        }
-      }
-    }
-
-    // Check atomicmarket
-    if (marketAssetsData.success && marketAssetsData.data.length > 0) {
-      const marketAssetId = marketAssetsData.data[0].asset_id;
-      try {
-        const marketAssetResponse = await ky.get(`${node.url}/atomicmarket/v1/assets/${marketAssetId}`, { timeout: TIMEOUT_DURATION }).json();
-        node.atomic.atomicmarket = marketAssetResponse.success;
-      } catch (error) {
-        console.error(`Failed additional atomicmarket check for node ${node.url}:`, error.message);
-      }
-    }
-
-    // Node is healthy if either atomicassets or atomicmarket is available
-    const isHealthy = node.atomic.atomicassets || node.atomic.atomicmarket;
-
-    if (isHealthy) {
-      console.log(`Node ${node.url} is healthy. Atomicassets: ${node.atomic.atomicassets}, Atomicmarket: ${node.atomic.atomicmarket}`);
-      
-      // Perform geo IP lookup here...
-
-      return true;
-    } else {
-      console.log(`Node ${node.url} is unhealthy. Neither atomicassets nor atomicmarket are available.`);
-      return false;
-    }
-
-  } catch (error) {
-    console.error(`Failed to check health of Atomic node ${node.url}:`, error.message);
-    return false;
-  }
-};
 
 // Update health checks for all mainnet nodes
 const updateHealthChecks = async () => {
