@@ -199,9 +199,10 @@ fastify.get('/nodes', (request, reply) => {
 
   // Apply filters
   if (type === 'hyperion') {
-    if (historyfull !== undefined) {
-      nodesList = nodesList.filter(node => node.historyfull === (historyfull === 'true'));
+    if (historyfull === 'true') {
+      nodesList = nodesList.filter(node => node.historyfull === true);
     }
+    // When historyfull is false, we don't filter based on historyfull
     if (streaming !== undefined) {
       nodesList = nodesList.filter(node => node.streaming?.enable === (streaming === 'true'));
     }
