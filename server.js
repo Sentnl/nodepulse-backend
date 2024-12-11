@@ -12,6 +12,7 @@ const HEALTH_CHECK_INTERVAL = process.env.HEALTH_CHECK_INTERVAL || 520000; // De
 const TIMEOUT_DURATION = process.env.TIMEOUT_DURATION || 10000;
 let nextHealthCheckTime = Date.now() + HEALTH_CHECK_INTERVAL;
 const NODE_LIST_REFRESH_INTERVAL = 24 * 60 * 60 * 1000; // 24 hours
+const API_URL = 'api.sengine.co';
 
 // Add this constant near the top of the file, with other constants
 const API_VERSION = '1.0.2';
@@ -55,7 +56,7 @@ const fetchNodeList = async () => {
     };
 
     // Fetch Hyperion nodes
-    const hyperionNodeList = await fetchWithFallback('wax.sengine.co/api/nodes/hyperion');
+    const hyperionNodeList = await fetchWithFallback(`${API_URL}/nodes/hyperion`);
     hyperionMainnetNodes = hyperionNodeList
       .filter(node => node.network === 'mainnet')
       .map(node => ({ 
@@ -70,7 +71,7 @@ const fetchNodeList = async () => {
       }));
 
     // Fetch Atomic nodes
-    const atomicNodeList = await fetchWithFallback('wax.sengine.co/api/nodes/atomic');
+    const atomicNodeList = await fetchWithFallback(`${API_URL}/nodes/atomic`);
     atomicMainnetNodes = atomicNodeList.filter(node => node.network === 'mainnet').map(node => ({ url: node.https_node_url }));
     atomicTestnetNodes = atomicNodeList.filter(node => node.network === 'testnet').map(node => ({ url: node.https_node_url }));
 
