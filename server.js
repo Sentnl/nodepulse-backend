@@ -4,6 +4,8 @@ import dns from 'dns/promises';
 import geoip from 'geoip-lite';
 import { checkHyperionHealth } from './nodes/hyperion.js';
 import { checkAtomicHealth } from './nodes/atomic.js';
+import { checkLightApiHealth } from './nodes/lightapi.js';
+import { checkIpfsHealth } from './nodes/ipfs.js';
 
 const fastify = Fastify({ logger: true });
 
@@ -35,6 +37,14 @@ let healthyNodes = {
   atomic: {
     mainnet: [],
     testnet: []
+  },
+  lightapi: {
+    mainnet: [],
+    testnet: []
+  },
+  ipfs: {
+    mainnet: [],
+    testnet: []
   }
 };
 
@@ -42,6 +52,10 @@ let hyperionMainnetNodes = [];
 let hyperionTestnetNodes = [];
 let atomicMainnetNodes = [];
 let atomicTestnetNodes = [];
+let lightApiMainnetNodes = [];
+let lightApiTestnetNodes = [];
+let ipfsMainnetNodes = [];
+let ipfsTestnetNodes = [];
 
 // Fetch list of nodes from custom URLs
 const fetchNodeList = async () => {
@@ -75,6 +89,24 @@ const fetchNodeList = async () => {
     atomicMainnetNodes = atomicNodeList.filter(node => node.network === 'mainnet').map(node => ({ url: node.https_node_url }));
     atomicTestnetNodes = atomicNodeList.filter(node => node.network === 'testnet').map(node => ({ url: node.https_node_url }));
 
+    // Fetch Light API nodes
+    const lightApiNodeList = await fetchWithFallback(`${API_URL}/nodes/light-api`);
+    lightApiMainnetNodes = lightApiNodeList
+      .filter(node => node.network === 'mainnet')
+      .map(node => ({ url: node.https_node_url }));
+    lightApiTestnetNodes = lightApiNodeList
+      .filter(node => node.network === 'testnet')
+      .map(node => ({ url: node.https_node_url }));
+
+    // Fetch IPFS nodes
+    const ipfsNodeList = await fetchWithFallback(`${API_URL}/nodes/ipfs`);
+    ipfsMainnetNodes = ipfsNodeList
+      .filter(node => node.network === 'mainnet')
+      .map(node => ({ url: node.https_node_url }));
+    ipfsTestnetNodes = ipfsNodeList
+      .filter(node => node.network === 'testnet')
+      .map(node => ({ url: node.https_node_url }));
+
     fastify.log.info('Node list updated.');
   } catch (error) {
     fastify.log.error('Failed to fetch node list:', error);
@@ -106,15 +138,22 @@ const fetchLatestHeadBlock = async (nodes) => {
 
 // Update health checks for all mainnet nodes
 const updateHealthChecks = async () => {
-  if (!hyperionMainnetNodes.length || !atomicMainnetNodes.length || !hyperionTestnetNodes.length || !atomicTestnetNodes.length) {
+  if (!hyperionMainnetNodes.length || !atomicMainnetNodes.length || 
+      !hyperionTestnetNodes.length || !atomicTestnetNodes.length ||
+      !lightApiMainnetNodes.length || !lightApiTestnetNodes.length ||
+      !ipfsMainnetNodes.length || !ipfsTestnetNodes.length) {
     fastify.log.warn('Node list is empty. Fetching node list...');
     await fetchNodeList();
-  }  // <-- Added missing closing brace here
+  }
 
   const healthyHyperionMainnetNodes = [];
   const healthyHyperionTestnetNodes = [];
   const healthyAtomicMainnetNodes = [];
   const healthyAtomicTestnetNodes = [];
+  const healthyLightApiMainnetNodes = [];
+  const healthyLightApiTestnetNodes = [];
+  const healthyIpfsMainnetNodes = [];
+  const healthyIpfsTestnetNodes = [];
 
   for (const node of hyperionMainnetNodes) {
     const isHealthy = await checkHyperionHealth(node, TIMEOUT_DURATION);
@@ -144,15 +183,51 @@ const updateHealthChecks = async () => {
     }
   }
 
+  // Light API health checks
+  for (const node of lightApiMainnetNodes) {
+    const isHealthy = await checkLightApiHealth(node, TIMEOUT_DURATION);
+    if (isHealthy) {
+      healthyLightApiMainnetNodes.push(node);
+    }
+  }
+
+  for (const node of lightApiTestnetNodes) {
+    const isHealthy = await checkLightApiHealth(node, TIMEOUT_DURATION);
+    if (isHealthy) {
+      healthyLightApiTestnetNodes.push(node);
+    }
+  }
+
+  // IPFS health checks
+  for (const node of ipfsMainnetNodes) {
+    const isHealthy = await checkIpfsHealth(node, TIMEOUT_DURATION);
+    if (isHealthy) {
+      healthyIpfsMainnetNodes.push(node);
+    }
+  }
+
+  for (const node of ipfsTestnetNodes) {
+    const isHealthy = await checkIpfsHealth(node, TIMEOUT_DURATION);
+    if (isHealthy) {
+      healthyIpfsTestnetNodes.push(node);
+    }
+  }
+
   healthyNodes.hyperion.mainnet = healthyHyperionMainnetNodes;
   healthyNodes.hyperion.testnet = healthyHyperionTestnetNodes;
   healthyNodes.atomic.mainnet = healthyAtomicMainnetNodes;
   healthyNodes.atomic.testnet = healthyAtomicTestnetNodes;
+  healthyNodes.lightapi.mainnet = healthyLightApiMainnetNodes;
+  healthyNodes.lightapi.testnet = healthyLightApiTestnetNodes;
+  healthyNodes.ipfs.mainnet = healthyIpfsMainnetNodes;
+  healthyNodes.ipfs.testnet = healthyIpfsTestnetNodes;
 
   fastify.log.info(`Health check completed. Healthy Hyperion nodes: mainnet ${healthyHyperionMainnetNodes.length}, testnet ${healthyHyperionTestnetNodes.length}`);
   fastify.log.info(`Healthy Atomic nodes: mainnet ${healthyAtomicMainnetNodes.length}, testnet ${healthyAtomicTestnetNodes.length}`);
+  fastify.log.info(`Healthy Light API nodes: mainnet ${healthyLightApiMainnetNodes.length}, testnet ${healthyLightApiTestnetNodes.length}`);
+  fastify.log.info(`Healthy IPFS nodes: mainnet ${healthyIpfsMainnetNodes.length}, testnet ${healthyIpfsTestnetNodes.length}`);
+  
   console.log('Updated healthyNodes:', JSON.stringify(healthyNodes, null, 2));
-  // Update the next health check time
   nextHealthCheckTime = Date.now() + HEALTH_CHECK_INTERVAL;
   console.log(`Next health check scheduled for: ${new Date(nextHealthCheckTime).toISOString()}`);
 };
@@ -259,15 +334,20 @@ fastify.get('/nodes', (request, reply) => {
   fastify.get('/health', (request, reply) => {
     const totalHyperionNodes = healthyNodes.hyperion.mainnet.length + healthyNodes.hyperion.testnet.length;
     const totalAtomicNodes = healthyNodes.atomic.mainnet.length + healthyNodes.atomic.testnet.length;
+    const totalLightApiNodes = healthyNodes.lightapi.mainnet.length + healthyNodes.lightapi.testnet.length;
+    const totalIpfsNodes = healthyNodes.ipfs.mainnet.length + healthyNodes.ipfs.testnet.length;
   
-    const isHealthy = totalHyperionNodes >= 3 && totalAtomicNodes >= 3;
+    const isHealthy = totalHyperionNodes >= 3 && totalAtomicNodes >= 3 && 
+                     totalLightApiNodes >= 3 && totalIpfsNodes >= 3;
   
     reply.send({
       version: API_VERSION,
       status: isHealthy ? 'healthy' : 'unhealthy',
       nodes: {
         hyperion: totalHyperionNodes,
-        atomic: totalAtomicNodes
+        atomic: totalAtomicNodes,
+        lightapi: totalLightApiNodes,
+        ipfs: totalIpfsNodes
       }
     });
   });
