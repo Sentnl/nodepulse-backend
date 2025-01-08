@@ -41,6 +41,7 @@ sudo docker run  --network=proxy-net --name servername --expose 3000 \
 nodepulse-backend:latest
 ```
 
+
 Make sure to replace nodepulse.domainname.com  with your actual domain name for your backend AND proxy.cloudflare.com with the name of your proxy.
 
 Note: This assumes you have already set up the nginx-proxy container and created a Docker network named `nginx-proxy`. If you haven't, you'll need to do that first.
