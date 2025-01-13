@@ -41,6 +41,7 @@ sudo docker run  --network=proxy-net --name servername --expose 3000 \
 nodepulse-backend:latest
 ```
 
+🚨 IMPORTANT: Make sure to pass the HTTPS_METHOD=noredirect flag to the container, otherwise the proxy will redirect to HTTPS and the API will not be accessible.
 
 Make sure to replace nodepulse.domainname.com  with your actual domain name for your backend AND proxy.cloudflare.com with the name of your proxy.
 
